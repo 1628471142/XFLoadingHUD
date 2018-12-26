@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XFLoadingHUD_Example' do
+  pod 'XFLoadingHUD', :path => '../'
+
+  target 'XFLoadingHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

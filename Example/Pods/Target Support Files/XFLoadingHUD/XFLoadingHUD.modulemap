@@ -1,0 +1,6 @@
+framework module XFLoadingHUD {
+  umbrella header "XFLoadingHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

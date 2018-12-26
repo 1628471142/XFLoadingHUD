@@ -1,0 +1,23 @@
+PODS:
+  - MJRefresh (3.1.15.7)
+  - XFLoadingHUD (0.1.0):
+    - MJRefresh
+
+DEPENDENCIES:
+  - XFLoadingHUD (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  XFLoadingHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  XFLoadingHUD: fa1ed017e9e99aeca876b60a8a995e5abf228ed0
+
+PODFILE CHECKSUM: 5c97fd0abf70793b5536ff02d5067d32e1e471b9
+
+COCOAPODS: 1.5.3

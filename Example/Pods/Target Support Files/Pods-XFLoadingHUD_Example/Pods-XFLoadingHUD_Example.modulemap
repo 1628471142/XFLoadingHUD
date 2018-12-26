@@ -1,0 +1,6 @@
+framework module Pods_XFLoadingHUD_Example {
+  umbrella header "Pods-XFLoadingHUD_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
