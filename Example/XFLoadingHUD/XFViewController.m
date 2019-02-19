@@ -23,13 +23,12 @@
 {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
-//    [self.view addSubview:self.tableView];
-//
-//    [XFLoadingHUD shareInstance].customDuration = 2.0;
-//
-//    _bgView = [[UIView alloc] initWithFrame:CGRectMake(0, XFLoadingScreenHeight - 200, XFLoadingScreenWidth, 200)];
-//    [self.view addSubview:_bgView];
-    
+    [self.view addSubview:self.tableView];
+
+    [XFLoadingHUD shareInstance].customDuration = 2.0;
+
+    _bgView = [[UIView alloc] initWithFrame:CGRectMake(0, XFLoadingScreenHeight - 200, XFLoadingScreenWidth, 200)];
+    [self.view addSubview:_bgView];
     
 //    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(30, 0, XFLoadingScreenWidth - 60, 40)];
 //    btn.layer.cornerRadius = 5;
@@ -48,7 +47,7 @@
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.tableFooterView = [UIView new];
-        _animates = @[@"XFLoadingBackgroundStyleDark",@"XFLoadingBackgroundStyleLight",@"XFLoadingBackgroundStyleNone",@"XFLoadingGraphAnimateStyleCircle",@"XFLoadingGraphAnimateStyleIndicator",@"XFLoadingGraphAnimateStyleWordPath",@"XFLoadingGraphDirectionEndToEnd",@"XFLoadingGraphDirectionBegainHeader",@"文字",@"转圈",@"菊花"];
+        _animates = @[@"XFLoadingBackgroundStyleDark",@"XFLoadingBackgroundStyleLight",@"XFLoadingBackgroundStyleNone",@"XFLoadingGraphAnimateStyleCircle",@"XFLoadingGraphAnimateStyleIndicator",@"XFLoadingGraphAnimateStyleWordPath",@"XFLoadingGraphDirectionEndToEnd",@"XFLoadingGraphDirectionBegainHeader",@"头部文字",@"头部转圈",@"头部菊花"];
         _dataSources = [NSMutableArray arrayWithArray:_animates];
         _tableView.mj_header = [XFRefreshHeader headerWithRefreshingTarget:self refreshingAction:@selector(addData) animateStyle:XFLoadingGraphAnimateStyleWordPath];
     }

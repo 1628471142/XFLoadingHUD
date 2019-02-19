@@ -9,7 +9,6 @@
 #import "UIView+XFLoadingAnimate.h"
 #import "UIView+XFCircleLoading.h"
 #define XF_RGB_COLOR(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
-#define XF_CircleWidth  35.f
 
 @interface XFLoadingHUD ()
 @property (nonatomic, strong) UIView * containerView;//loading控件载体
@@ -31,9 +30,9 @@ static XFLoadingHUD * _loadingView = nil;
         
         _loadingView.bgView = [[UIView alloc] initWithFrame:_loadingView.bounds];
         [_loadingView.bgView setBackgroundColor:XF_RGB_COLOR(0, 0, 0,0)];
-        
-        _loadingView.containerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 180, 120)];
         _loadingView.containerView.layer.cornerRadius = 5.0;
+
+        _loadingView.containerView = [[UIView alloc] init];
         [_loadingView.containerView setBackgroundColor:XF_RGB_COLOR(255, 255, 255,1)];
         
         [_loadingView addSubview:_loadingView.bgView];
@@ -54,7 +53,7 @@ static XFLoadingHUD * _loadingView = nil;
 
 - (UIView *)circleView{
     if (_circleView == nil) {
-        UIView *circleView = [[UIView alloc] initWithFrame:CGRectMake((self.containerView.frame.size.width - XF_CircleWidth)/2,(self.containerView.frame.size.height - XF_CircleWidth)/2, XF_CircleWidth, XF_CircleWidth)];
+        UIView *circleView = [[UIView alloc] initWithFrame:CGRectMake((self.containerView.frame.size.width - self.circleWidth)/2,(self.containerView.frame.size.height - self.circleWidth)/2, self.circleWidth, self.circleWidth)];
         _circleView = circleView;
         [self.containerView addSubview:_circleView];
     }
@@ -63,7 +62,8 @@ static XFLoadingHUD * _loadingView = nil;
 
 - (UIActivityIndicatorView *)indicatorView{
     if (_indicatorView == nil) {
-        UIActivityIndicatorView * indicatorView = [[UIActivityIndicatorView alloc] initWithFrame:self.circleView.frame];
+        UIActivityIndicatorView * indicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+        [indicatorView setFrame:CGRectMake((self.containerView.frame.size.width - self.indicatorWidth)/2,(self.containerView.frame.size.height - self.indicatorWidth)/2, self.indicatorWidth, self.indicatorWidth)];
         _indicatorView = indicatorView;
         [self.containerView addSubview:_indicatorView];
     }
@@ -79,8 +79,22 @@ static XFLoadingHUD * _loadingView = nil;
     self.circleColor = LoadingBlueColor;
     self.customDuration = 3.0f;
     self.circleDuration = 1.2f;
+    self.circleWidth = 35.f;
+    self.indicatorWidth = 100.f;
     self.bgAlpha = 0.2;
+    self.containerSize = CGSizeMake(100, 100);
 }
+
+- (void)setContainerCornerRadius:(float)containerCornerRadius{
+    _containerCornerRadius = containerCornerRadius;
+    _loadingView.containerView.layer.cornerRadius = containerCornerRadius;
+}
+
+- (void)setContainerSize:(CGSize)containerSize{
+    _containerSize = containerSize;
+    [self.containerView setFrame:CGRectMake(0, 0, self.containerSize.width, self.containerSize.height)];
+}
+
 
 - (void)setThemeStyle:(XFLoadingBackgroundStyle)themeStyle{
     _themeStyle = themeStyle;
@@ -100,9 +114,6 @@ static XFLoadingHUD * _loadingView = nil;
 
 - (void)setAnimateStyle:(XFLoadingGraphAnimateStyle)animateStyle{
     _animateStyle = animateStyle;
-    if (animateStyle == XFLoadingGraphAnimateStyleIndicator) {
-        self.themeStyle = XFLoadingBackgroundStyleNone;
-    }
 }
 
 + (void)show{
@@ -116,7 +127,7 @@ static XFLoadingHUD * _loadingView = nil;
 - (void)showInView:(UIView *)view{
     [self layoutSubviewsCenterInView:view];
     if (self.animateStyle == XFLoadingGraphAnimateStyleCircle) {
-        [self.circleView drawCircleAnimateWithFrame:CGRectMake(0,0, XF_CircleWidth, XF_CircleWidth)];
+        [self.circleView drawCircleAnimateWithFrame:CGRectMake(0,0, self.circleWidth, self.circleWidth)];
     }
     else if (self.animateStyle == XFLoadingGraphAnimateStyleIndicator){
         [self.indicatorView startAnimating];

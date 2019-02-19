@@ -58,11 +58,17 @@ typedef NS_ENUM(NSInteger,XFLoadingPosition) {
 @property (nonatomic, assign) XFLoadingGraphDirection animateDirection;//绘制动画方向，针对文字绘制动画
 @property (nonatomic, assign) XFLoadingPosition position;//动画图案布局位置
 
+@property (nonatomic, assign) CGSize containerSize;//loading容器尺寸，默认（100，100）
+@property (nonatomic, assign) float containerCornerRadius;//loading容器圆角，默认 5
+
+@property (nonatomic, assign) float indicatorWidth;//菊花宽度
+@property (nonatomic, assign) float circleWidth;//转圈宽度
 @property (nonatomic, strong) UIColor * circleBgColor;//转圈背景颜色
 @property (nonatomic, strong) UIColor * circleColor;//转圈颜色
 @property (nonatomic, assign) float customDuration;//自定义文字描边动画持续时长
 @property (nonatomic, assign) float circleDuration;//转一圈时长
 @property (nonatomic, assign) CGFloat bgAlpha;//背景不透明度，默认0.2
+
 
 + (XFLoadingHUD *)shareInstance;
 
