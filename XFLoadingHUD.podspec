@@ -21,7 +21,7 @@ s.description      = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage         = 'https://github.com/953894805@qq.com/XFLoadingHUD'
+s.homepage         = 'https://github.com/1628471142/XFLoadingHUD'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { '953894805@qq.com' => '953894805@qq.com' }
