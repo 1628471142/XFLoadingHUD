@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'XFLoadingHUD'
-s.version          = '0.1.0'
+s.version          = '0.1.1'
 s.summary          = '可切换菊花、转圈、文字描绘三种加载动画，并为MJRefresh新增以上三种动画的自定义头部'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,13 @@ s.source           = { :git => 'https://github.com/1628471142/XFLoadingHUD.git',
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'XFLoadingHUD/Classes/*'
+s.source_files = "XFLoadingHUD/Classes/*"
 
 s.resource_bundles = {
-'XFLoadingHUD' => ['XFLoadingHUD/Assets/Pusab.ttf']
+'XFLoadingHUD' => 'XFLoadingHUD/Assets/Pusab.ttf'
 }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
-# s.frameworks = 'UIKit', 'MapKit'
+s.frameworks = 'UIKit'
 s.dependency 'MJRefresh'
 end

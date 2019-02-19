@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "953894805@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JFN4XSZEL4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -499,6 +502,7 @@
 			baseConfigurationReference = 2753190E4B8AFB6C9494C2AA /* Pods-XFLoadingHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JFN4XSZEL4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XFLoadingHUD/XFLoadingHUD-Prefix.pch";
 				INFOPLIST_FILE = "XFLoadingHUD/XFLoadingHUD-Info.plist";
@@ -514,6 +518,7 @@
 			baseConfigurationReference = 37ED1469C0DF0497A32B8971 /* Pods-XFLoadingHUD_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JFN4XSZEL4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XFLoadingHUD/XFLoadingHUD-Prefix.pch";
 				INFOPLIST_FILE = "XFLoadingHUD/XFLoadingHUD-Info.plist";

@@ -23,12 +23,13 @@
 {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    [self.view addSubview:self.tableView];
+//    [self.view addSubview:self.tableView];
+//
+//    [XFLoadingHUD shareInstance].customDuration = 2.0;
+//
+//    _bgView = [[UIView alloc] initWithFrame:CGRectMake(0, XFLoadingScreenHeight - 200, XFLoadingScreenWidth, 200)];
+//    [self.view addSubview:_bgView];
     
-    [XFLoadingHUD shareInstance].customDuration = 2.0;
-    
-    _bgView = [[UIView alloc] initWithFrame:CGRectMake(0, XFLoadingScreenHeight - 200, XFLoadingScreenWidth, 200)];
-    [self.view addSubview:_bgView];
     
 //    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(30, 0, XFLoadingScreenWidth - 60, 40)];
 //    btn.layer.cornerRadius = 5;

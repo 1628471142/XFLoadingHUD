@@ -75,7 +75,7 @@ static NSString * _timerName = @"XFLoadingAnimateTimerName";
 - (void)drawWordAnimationWithText:(NSString *)text
                              fontSize:(CGFloat)fontSize{
     
-    [self drawWordAnimationWithSize:CGSizeMake(0, 0) text:text size:fontSize position:XFLoadingPositionCenter];
+    [self drawWordAnimationWithSize:CGSizeMake(0, 0) text:text fontSize:fontSize position:XFLoadingPositionCenter];
     
 }
 
@@ -86,7 +86,7 @@ static NSString * _timerName = @"XFLoadingAnimateTimerName";
 }
 
 
-- (void)drawWordAnimationWithSize:(CGSize)size text:(NSString *)text size:(CGFloat)fontSize position:(XFLoadingPosition)position{
+- (void)drawWordAnimationWithSize:(CGSize)size text:(NSString *)text fontSize:(CGFloat)fontSize position:(XFLoadingPosition)position{
     
     [self drawWordAnimationWithSize:size text:text font:[UIFont fontWithName:@"Pusab" size:fontSize] startColor:nil endColor:nil position:position];
     
