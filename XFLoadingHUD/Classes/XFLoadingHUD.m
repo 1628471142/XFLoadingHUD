@@ -18,6 +18,7 @@
 @property (nonatomic, weak) UIActivityIndicatorView * indicatorView;
 @property (nonatomic, assign) BOOL isShowing;//正在展示动画
 @property (nonatomic, strong) UIVisualEffectView * visualEffectView;//毛玻璃，添加在loading父容器中
+@property (nonatomic, assign) float keyboardOffsetY;// 键盘偏移量
 
 @end
 
@@ -42,6 +43,9 @@ static XFLoadingHUD * _loadingView = nil;
         [_loadingView addSubview:_loadingView.bgView];
         [_loadingView addSubview:_loadingView.containerView];
         [_loadingView configDefault];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:_loadingView selector:@selector(keyboardDidChange:) name:UIKeyboardDidChangeFrameNotification object:nil];
+        
     });
     return _loadingView;
 }
@@ -87,6 +91,7 @@ static XFLoadingHUD * _loadingView = nil;
     self.indicatorWidth = 100.f;
     self.bgAlpha = 0.2;
     self.containerSize = CGSizeMake(100, 100);
+    self.keyboardOffsetY = 0;
 }
 
 - (void)setContainerCornerRadius:(float)containerCornerRadius{
@@ -165,13 +170,12 @@ static XFLoadingHUD * _loadingView = nil;
 //默认居中布局
 - (void)layoutSubviewsCenterInView:(UIView *)view{
     [view addSubview:self];
-    self.frame = view.bounds;
+    self.frame = CGRectMake(view.bounds.origin.x, view.bounds.origin.y, XFLoadingScreenWidth, self.keyboardOffsetY);
     self.containerView.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2);
 }
 
 //背景渐现动画
 - (void)showBgViewAnimation{
-    self.hidden = NO;
     [UIView animateWithDuration:0.25 animations:^{
         [self.bgView setBackgroundColor:XF_RGB_COLOR(0, 0, 0, self.bgAlpha)];
     }];
@@ -198,8 +202,16 @@ static XFLoadingHUD * _loadingView = nil;
     }
     
     [[self shareInstance].bgView setBackgroundColor:XF_RGB_COLOR(0, 0, 0, 0)];
-    [self shareInstance].hidden = YES;
+    [[self shareInstance] removeFromSuperview];
     
+}
+
+#pragma mark - keyboard notification
+- (void)keyboardDidChange:(NSNotification*)notification
+{
+    NSDictionary * userInfo = [notification userInfo];
+    NSValue * aValue = [userInfo objectForKey:UIKeyboardFrameEndUserInfoKey];
+    self.keyboardOffsetY = [aValue CGRectValue].origin.y;
 }
 
 @end
