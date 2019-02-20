@@ -17,6 +17,7 @@
 @property (nonatomic, weak) UIView * circleView;
 @property (nonatomic, weak) UIActivityIndicatorView * indicatorView;
 @property (nonatomic, assign) BOOL isShowing;//正在展示动画
+@property (nonatomic, strong) UIVisualEffectView * visualEffectView;//毛玻璃，添加在loading父容器中
 
 @end
 
@@ -30,10 +31,13 @@ static XFLoadingHUD * _loadingView = nil;
         
         _loadingView.bgView = [[UIView alloc] initWithFrame:_loadingView.bounds];
         [_loadingView.bgView setBackgroundColor:XF_RGB_COLOR(0, 0, 0,0)];
-        _loadingView.containerView.layer.cornerRadius = 5.0;
 
         _loadingView.containerView = [[UIView alloc] init];
-        [_loadingView.containerView setBackgroundColor:XF_RGB_COLOR(255, 255, 255,1)];
+        UIBlurEffect * effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+        _loadingView.visualEffectView = [[UIVisualEffectView alloc] initWithEffect:effect];
+        [_loadingView.containerView addSubview:_loadingView.visualEffectView];
+        _loadingView.containerView.layer.cornerRadius = 5.0;
+        _loadingView.containerView.layer.masksToBounds = YES;
         
         [_loadingView addSubview:_loadingView.bgView];
         [_loadingView addSubview:_loadingView.containerView];
@@ -93,6 +97,7 @@ static XFLoadingHUD * _loadingView = nil;
 - (void)setContainerSize:(CGSize)containerSize{
     _containerSize = containerSize;
     [self.containerView setFrame:CGRectMake(0, 0, self.containerSize.width, self.containerSize.height)];
+    [self.visualEffectView setFrame:CGRectMake(0, 0, self.containerSize.width, self.containerSize.width)];
 }
 
 
@@ -100,15 +105,19 @@ static XFLoadingHUD * _loadingView = nil;
     _themeStyle = themeStyle;
     if (themeStyle == XFLoadingBackgroundStyleDark) {
         self.circleBgColor = [UIColor whiteColor];
-        self.containerView.backgroundColor = [UIColor darkGrayColor];
+        self.visualEffectView.hidden = NO;
+        UIBlurEffect * effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+        [self.visualEffectView setEffect:effect];
     }
     if (themeStyle == XFLoadingBackgroundStyleLight) {
         self.circleBgColor = LoadingGrayColor;
-        self.containerView.backgroundColor = [UIColor whiteColor];
+        self.visualEffectView.hidden = NO;
+        UIBlurEffect * effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+        [self.visualEffectView setEffect:effect];
     }
     if (themeStyle == XFLoadingBackgroundStyleNone) {
         self.circleBgColor = LoadingGrayColor;
-        self.containerView.backgroundColor = [UIColor clearColor];
+        self.visualEffectView.hidden = YES;
     }
 }
 
