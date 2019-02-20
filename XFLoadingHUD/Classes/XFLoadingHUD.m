@@ -31,7 +31,7 @@ static XFLoadingHUD * _loadingView = nil;
         
         _loadingView.bgView = [[UIView alloc] initWithFrame:_loadingView.bounds];
         [_loadingView.bgView setBackgroundColor:XF_RGB_COLOR(0, 0, 0,0)];
-
+        
         _loadingView.containerView = [[UIView alloc] init];
         UIBlurEffect * effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
         _loadingView.visualEffectView = [[UIVisualEffectView alloc] initWithEffect:effect];
@@ -171,6 +171,7 @@ static XFLoadingHUD * _loadingView = nil;
 
 //背景渐现动画
 - (void)showBgViewAnimation{
+    self.hidden = NO;
     [UIView animateWithDuration:0.25 animations:^{
         [self.bgView setBackgroundColor:XF_RGB_COLOR(0, 0, 0, self.bgAlpha)];
     }];
@@ -197,6 +198,8 @@ static XFLoadingHUD * _loadingView = nil;
     }
     
     [[self shareInstance].bgView setBackgroundColor:XF_RGB_COLOR(0, 0, 0, 0)];
+    [self shareInstance].hidden = YES;
+    
 }
 
 @end

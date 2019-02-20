@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'XFLoadingHUD'
-s.version          = '0.2.0'
+s.version          = '0.2.1'
 s.summary          = '可切换菊花、转圈、文字描绘三种加载动画，并为MJRefresh新增以上三种动画的自定义头部'
 
 # This description is used to generate tags and improve search results.
