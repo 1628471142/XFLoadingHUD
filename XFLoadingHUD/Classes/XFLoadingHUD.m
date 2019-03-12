@@ -91,7 +91,7 @@ static XFLoadingHUD * _loadingView = nil;
     self.indicatorWidth = 100.f;
     self.bgAlpha = 0.2;
     self.containerSize = CGSizeMake(100, 100);
-    self.keyboardOffsetY = 0;
+    self.keyboardOffsetY = XFLoadingScreenHeight;
 }
 
 - (void)setContainerCornerRadius:(float)containerCornerRadius{
