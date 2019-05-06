@@ -23,9 +23,9 @@
 @end
 
 @implementation XFLoadingHUD
-static XFLoadingHUD * _loadingView = nil;
 
 + (XFLoadingHUD *)shareInstance{
+    static XFLoadingHUD * _loadingView = nil;
     static dispatch_once_t predicate;
     dispatch_once(&predicate, ^{
         _loadingView = [[self alloc] initWithFrame:CGRectMake(0, 0, XFLoadingScreenWidth, XFLoadingScreenHeight)];
@@ -96,7 +96,7 @@ static XFLoadingHUD * _loadingView = nil;
 
 - (void)setContainerCornerRadius:(float)containerCornerRadius{
     _containerCornerRadius = containerCornerRadius;
-    _loadingView.containerView.layer.cornerRadius = containerCornerRadius;
+    [XFLoadingHUD shareInstance].containerView.layer.cornerRadius = containerCornerRadius;
 }
 
 - (void)setContainerSize:(CGSize)containerSize{
@@ -130,6 +130,14 @@ static XFLoadingHUD * _loadingView = nil;
     _animateStyle = animateStyle;
 }
 
++ (void)showXFLoadingInView:(UIView *)view{
+    [[self shareInstance] showXFLoadingInView:view];
+}
+
++ (void)showXFLoading{
+    [[self shareInstance] showXFLoadingInView:[UIApplication sharedApplication].keyWindow];
+}
+
 + (void)show{
     [self showInView:[UIApplication sharedApplication].keyWindow];
 }
@@ -153,13 +161,6 @@ static XFLoadingHUD * _loadingView = nil;
     self.isShowing = YES;
 }
 
-+ (void)showXFLoading{
-    [[self shareInstance] showXFLoadingInView:[UIApplication sharedApplication].keyWindow];
-}
-
-+ (void)showXFLoadingInView:(UIView *)view{
-    [[self shareInstance] showXFLoadingInView:view];
-}
 
 - (void)showXFLoadingInView:(UIView *)view{
     [self layoutSubviewsCenterInView:view];
@@ -170,7 +171,8 @@ static XFLoadingHUD * _loadingView = nil;
 //默认居中布局
 - (void)layoutSubviewsCenterInView:(UIView *)view{
     [view addSubview:self];
-    self.frame = CGRectMake(view.bounds.origin.x, view.bounds.origin.y, XFLoadingScreenWidth, self.keyboardOffsetY);
+    CGFloat height = view.frame.size.height != XFLoadingScreenHeight ? view.frame.size.height : self.keyboardOffsetY;
+    self.frame = CGRectMake(view.bounds.origin.x, view.bounds.origin.y, view.frame.size.width, height);
     self.containerView.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2);
 }
 
