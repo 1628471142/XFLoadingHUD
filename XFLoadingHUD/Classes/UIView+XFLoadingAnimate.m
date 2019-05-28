@@ -92,6 +92,12 @@ static NSString * _timerName = @"XFLoadingAnimateTimerName";
     
 }
 
+- (void)drawWordAnimationWithSize:(CGSize)size text:(NSString *)text fontSize:(CGFloat)fontSize position:(XFLoadingPosition)position startColor:(UIColor *)startColor endColor:(UIColor *)endColor{
+    
+    [self drawWordAnimationWithSize:size text:text font:[UIFont fontWithName:@"Pusab" size:fontSize] startColor:startColor endColor:endColor position:position];
+    
+}
+
 - (void)drawWordAnimationWithSize:(CGSize)size text:(NSString *)text font:(UIFont *)font position:(XFLoadingPosition)position{
     
     [self drawWordAnimationWithSize:size text:text font:font startColor:nil endColor:nil position:position];
@@ -137,9 +143,6 @@ static NSString * _timerName = @"XFLoadingAnimateTimerName";
     [self startTimerShowAnimateWithFrame:showFrame text:showText font:showFont startColor:showStartColor endColor:showEndColor];
     
 }
-
-
-
 
 - (void)startTimerShowAnimateWithFrame:(CGRect)frame
                                   text:(NSString *)text

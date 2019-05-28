@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				6D3FA88A288C3A0694E629D5 /* [CP] Embed Pods Frameworks */,
+				C6EE26C238E349B31F010E9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +249,7 @@
 				ORGANIZATIONNAME = "953894805@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = JFN4XSZEL4;
+						DevelopmentTeam = WV523G7DWQ;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -260,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -327,20 +329,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/XFLoadingHUD/XFLoadingHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XFLoadingHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AC40612560883ABCCAC1E390 /* [CP] Check Pods Manifest.lock */ = {
@@ -363,6 +363,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6EE26C238E349B31F010E9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example-resources.sh",
+				"${PODS_ROOT}/../../XFLoadingHUD/Assets/Pusab.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Pusab.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -502,10 +524,11 @@
 			baseConfigurationReference = 2753190E4B8AFB6C9494C2AA /* Pods-XFLoadingHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JFN4XSZEL4;
+				DEVELOPMENT_TEAM = WV523G7DWQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XFLoadingHUD/XFLoadingHUD-Prefix.pch";
 				INFOPLIST_FILE = "XFLoadingHUD/XFLoadingHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,10 +541,11 @@
 			baseConfigurationReference = 37ED1469C0DF0497A32B8971 /* Pods-XFLoadingHUD_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JFN4XSZEL4;
+				DEVELOPMENT_TEAM = WV523G7DWQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XFLoadingHUD/XFLoadingHUD-Prefix.pch";
 				INFOPLIST_FILE = "XFLoadingHUD/XFLoadingHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

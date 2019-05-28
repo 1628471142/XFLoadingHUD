@@ -11,13 +11,13 @@
 #define XF_RGB_COLOR(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 
 @interface XFLoadingHUD ()
-@property (nonatomic, strong) UIView * containerView;//loading控件载体
+@property (nonatomic, strong) UIView * containerView;// loading控件载体
 @property (nonatomic, strong) UIView * bgView;
-@property (nonatomic, weak) UIView * wordPathView;//文字描绘载体
+@property (nonatomic, weak) UIView * wordPathView;// 文字描绘载体
 @property (nonatomic, weak) UIView * circleView;
 @property (nonatomic, weak) UIActivityIndicatorView * indicatorView;
-@property (nonatomic, assign) BOOL isShowing;//正在展示动画
-@property (nonatomic, strong) UIVisualEffectView * visualEffectView;//毛玻璃，添加在loading父容器中
+@property (nonatomic, assign) BOOL isShowing;// 正在展示动画
+@property (nonatomic, strong) UIVisualEffectView * visualEffectView;// 毛玻璃，添加在loading父容器中
 @property (nonatomic, assign) float keyboardOffsetY;// 键盘偏移量
 
 @end

@@ -7,592 +7,586 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B6166834FDE582A7475C4D021C532A /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7D6998A720A4F72C5E60295FBAC081 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04E5A6920974A68B2D15090CBE56D58B /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F1604E7B9DB88EF0843279A3CF2928F5 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10884584B45C6564993981E004AE6B5B /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 304CC5D3C2AF74487F5E51E2BD351C87 /* MJRefresh.bundle */; };
-		1364E587347DB7B32700946C39D69836 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E6152B094EC2308994892CDDA977AECA /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16145634E76498599E08EE59BF2BA9D9 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 772828D7C1B5EC016F2A391EE2153D58 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		161F2B221B5E8838FD418D2115746A44 /* XFLoadingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8954B747887B3EEF40608A45244C8836 /* XFLoadingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19A2D61A783C422B8828408F98E56290 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E7FFE3499454CF2099186410BBF06F /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19C4792DB0F612049AA44DD72EC6AA90 /* Pusab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8385667FD4EA3C9721B85009B9F428E /* Pusab.ttf */; };
-		205C539389D123F0D635AEEE94E23A57 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D08C87668D5079F8C4B61B3D95436F64 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		206CEC9EFC45ADA91E7BD2FDDFC9FA0E /* UIView+XFCircleLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7F891ADC5C55799D706102EC4C5209 /* UIView+XFCircleLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AE9F2C800AA6D4A6EDD9DB4B93DCDCF /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF9F7454D6F6BFD295023CF64ADB47E /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EFA8D0D3C31B3A77612C955773F7D36 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FF1A0FB915D51EBFBE9B0C0D45453B /* MJRefreshBackNormalFooter.m */; };
-		31D52A4583BB36984AEC4C6D71265746 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7796E0B84D08F3954CB2285480571B /* MJRefreshStateHeader.m */; };
-		35CCA902DF0D8C0AB9C3A7C8AF4FD40D /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E6643DEB2913C3EFD0B2310908C6B17D /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		366A0A2B7CC87D039FD802C7FF82BEE7 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD495E243B865555CCA84971329BB72 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		370474488F17310C2E917826EE8B93FB /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CCB235447F3E18360C0DAB5E88F117 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3870F3B321945A97BEE68F03DC9BE52A /* XFRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F7A8A8267E47D2E87FBBF7BE110BE /* XFRefreshHeader.m */; };
-		482B75E0CB8031D3F673F70242FA41FB /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D156FE66233F9837692DC3CE7C7C5BE2 /* MJRefresh-dummy.m */; };
-		4C0F16E52E99E77A949E91011E3B2D22 /* UIView+XFLoadingAnimate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB25D6AC8AD781DDF0985524395E7BB7 /* UIView+XFLoadingAnimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E75F1293990391FB686C2BBD734E715 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E1B990CE4C4CD728A278B17E09A203 /* MJRefreshFooter.m */; };
-		57F9EB19DF46EC2590C8B10DB89D146E /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = D3494A5480373FC3C9BDB523B7E08DB9 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59396BA7F623808978BAEAE5437DE164 /* XFLoadingHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BE8B25D586142BCC0D6A486E4BE4362 /* XFLoadingHUD.bundle */; };
-		62E84F67014328D5ED1B0F65775CDDFA /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D848AF815E0097FBB84EE1D0DC9525 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		673FB2A196CBC1723002C94113D6CE5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF0592A4B748ACB6D2ECA2AD7B96C2 /* Foundation.framework */; };
-		6ADB7D36B5C95D6845892AC9253907C1 /* Pods-XFLoadingHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C894A94742B699404A027E64947CE03B /* Pods-XFLoadingHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B6A02E0908467A358769A5AE3E80F75 /* XFLoadingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E76E1EBDA61652AF67CF443FD710002 /* XFLoadingHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C7D22626A2F5AD4BB1ACC02D8F10731 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F9717796B8BB5A0C18C41CD9A84856 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D2FD545E0B463F0210B5242E1477721 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACC47ED652C3A45F4AFC7ED038A9741 /* MJRefreshAutoStateFooter.m */; };
-		6E560D2FE4A36AB742453E3CF5F4CE68 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FF7AF8A14C7B50C338359C13B34F2 /* MJRefreshAutoNormalFooter.m */; };
-		7203872DAF858D609912A7D0F768FEAF /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 2970467A63AAFA0B9F669E070084CED3 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72BA18069C0DFC671464EB497250D358 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D452368B1E23E34CF464E99127DB84 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79E7436378404C9DD06E9F65180D62A4 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A65AF0DDBD5843EF6BE10063EC1DE255 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D2425331E2A4BB00191CBD7F13419E7 /* UIView+XFCircleLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA6A1B89A75AE1019BE23B1AA1E6B62 /* UIView+XFCircleLoading.m */; };
-		7F9B9007891D36363BE6BE0CB08C1006 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF3ED4117E8669D0A80A95FA78F1B70 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FC1CEA91F90834F660AA84E603B37AD /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 95959F04C94DDA65B9FFB6C650CFFA32 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8144D635786BC45E9C539059FD4645D3 /* XFRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BD542713DB783958252C7BE354F6B3 /* XFRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81727E0FB34C0FE08D39BDE52687701F /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B572762D25AE884A6E6025CD584CA279 /* UIScrollView+MJExtension.m */; };
-		8234F492BBE286EA25736C05B5728C82 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1CC5B1CE4B106461CE38F0B1BAAC9 /* UIView+MJExtension.m */; };
-		891E6A8D131CBC8F1707778EE24489D2 /* Pods-XFLoadingHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFCB54B93C2FE85850118A9F0F76992 /* Pods-XFLoadingHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89AC93BD49DF0AB233EF0B6893AF60C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF0592A4B748ACB6D2ECA2AD7B96C2 /* Foundation.framework */; };
-		8EC93972F3B130707AF118DC03E6A74E /* Pods-XFLoadingHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E546AC6B53889DB014C95014518AA /* Pods-XFLoadingHUD_Tests-dummy.m */; };
-		94237113054B0D5CE28D86E2C827BD72 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFB5C2A3FCF292E4C8F9355FD0F053 /* MJRefreshGifHeader.m */; };
-		9A9931F189A4EF1FABC8C731BC11AEFE /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AAF1C3C81270C477811E90BCD5614 /* NSBundle+MJRefresh.m */; };
-		A7ED1FA2F59F020062DE3B579AF84F55 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE37D6C27365FC5DB7076DB6A5080B /* MJRefreshComponent.m */; };
-		B356C813D009D8F48B49B93F970B1F1B /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AD80BC1238C1F025946C78EA689F9FD6 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B385C33E20D74EF52902D0D1488138F7 /* UIView+XFLoadingAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F383540172FC88452ECF5C293743DA /* UIView+XFLoadingAnimate.m */; };
-		B41F98FF653E71431334FC3314A5D127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF0592A4B748ACB6D2ECA2AD7B96C2 /* Foundation.framework */; };
-		B433E3DC3654B1E9759EF075DD85E124 /* XFLoadingHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F11A9CF95BDF115632C1C93600CE395E /* XFLoadingHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B50A173CC006987E8682D89650F14F63 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C462EB7C5A1BFAAAA88A2A69302D6D0D /* MJRefreshAutoGifFooter.m */; };
-		B7170162BEBD63676519BFABE4D76287 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BEDD1B5B89A24603DEEDA27376E2 /* MJRefreshHeader.m */; };
-		B967DE3AFEE4C96AAB002B8095B6C7C2 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DBD653F2D083BF866FD821BDED8FE0 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA335DAA1D692DD13A938415F5A3937C /* XFLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C7BEA664FE8AD9D29FDE3A78A9E8A0 /* XFLoadingHUD.m */; };
-		BD549FDDF8E18393542908E05DF10310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF0592A4B748ACB6D2ECA2AD7B96C2 /* Foundation.framework */; };
-		C1117CCC45FA6780A4E9CC0879D5C3EA /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22423C0D9752CE12BC99436DC3E8D200 /* MJRefreshBackStateFooter.m */; };
-		CABC1E7BF086A573CC35A8300563C4E8 /* Pods-XFLoadingHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDD4F1082C6683DB13A86B59AE6A625 /* Pods-XFLoadingHUD_Example-dummy.m */; };
-		CF76306C6168AD7A6C076288CA899B02 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A4DE4AFFF1344A5481B9EE94ABAC4 /* UIScrollView+MJRefresh.m */; };
-		D0DC1D76CC463010A117560A62520F71 /* XFLoadingHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D28E9BF63989356EA3BA5C0A49DF88 /* XFLoadingHUD-dummy.m */; };
-		DB70C0344D46C9DBD3DBD9CA84C639D3 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CA0A599AA99D8D4849BE6F09120B4 /* MJRefreshAutoFooter.m */; };
-		DEF65EB64591CE2D6F99463627951710 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0799BB500F75019954F20434A4457B /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8545F5976D3836851D1923523CD0557 /* XFLoadingHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A046535B8103DAFDE9A3C49C34A1F9 /* XFLoadingHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA866BC5473D500728620C9E37B23174 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */; };
-		EEDC5683FF36946364A3C8344630705B /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FCFA9C7618D0EF63681404B1649D15 /* MJRefreshBackFooter.m */; };
-		EF873453BEEE867C2F8C43660CEB4A78 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F9AE22051BDBE67493DD290EC5FD9 /* MJRefreshNormalHeader.m */; };
-		F024CC151BA9C2DCEEEDB1857C832CB8 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D8958DD64D4F8B06313515F077270881 /* MJRefreshConst.m */; };
-		F41FA61294C6ABEEAEDC06A420AD696E /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E087BFF5A4C96024394F46FAB373F0 /* MJRefreshBackGifFooter.m */; };
-		F500515661320123FD1E4E19BB9B4395 /* XFLoadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D53D446C1A575E9C721F18666A2C49B /* XFLoadingButton.m */; };
+		09363A6021AE2BF890864611810E3AC5 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E151C1CEF2F0262A7D26C3FAC3E6F270 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BDE28F0178B7A54B17F6B9B01A15DA /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C004CB3AD951D7C855BF0FA67FF6BDD /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E711176DA9B245DC7D8DA51837BD808 /* UIView+XFLoadingAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 794431DB0511FA7F5BF485DE46730788 /* UIView+XFLoadingAnimate.m */; };
+		27B482E9C5F3EB34714B6B8D6191E7E0 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E12ABEF0C5588AF80FA3E6C2BB9F0E0 /* MJRefreshAutoFooter.m */; };
+		2DE10588BB794C01C31422146C2E5442 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6BE875C5552C49F250A0BBCC5D3D4F /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33F080559506C31CAE3D55E37E6BA606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3722DFABC75D79F738516C37B7519FD1 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FE208D8E09C70559F4733813A46D44 /* MJRefreshAutoGifFooter.m */; };
+		386E43C990BABD2BE2718B21EA01A98F /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A29EECC9FBEC2F31568E0DE5376C47B /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38F79E043618A30207D6430AE0D82942 /* XFLoadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528E521BC0177837EE842923BE61A54 /* XFLoadingButton.m */; };
+		3F6AAB97851AFE28F1929415DD4BB718 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F297B1BCBBF2BD77C6528D30EC105F /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255E5E881C51CB75A47EEFE04B270CC /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D7742339ADB64F21F1797F251AD98A99 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439E0707D283A1E28FF1C183BD0B227A /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CFBF1CF2C5D29ED2C336646FA75955 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43CEDEE5BFB83866D408FE06917FC3C0 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF197B053CA21D0FD6E1B100A8B1DD5 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45BAC174388F00B188C6C6093728E7FD /* Pods-XFLoadingHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0666EE15703324E75273DBADE2107CC7 /* Pods-XFLoadingHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4663C73875DFC53DD3397B5DA5A6A85F /* XFRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AE583C2955BA44E91527452EA60F31 /* XFRefreshHeader.m */; };
+		4CDD32847C4DFF32E120F87BCE488512 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C33D99898015320A057FFA68FF4BE5A9 /* MJRefreshStateHeader.m */; };
+		4EC72D6C7F6175F658103AB0F6CF7487 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B199F4F38CCA74A03AE794BADB946D0F /* MJRefreshAutoStateFooter.m */; };
+		500E95B6B156AC527A884E4861AC138E /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE7CD923C9813A821570E8BC0327BC9 /* NSBundle+MJRefresh.m */; };
+		576EBB347E9329A93FE0EB921A4EA3A1 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC136BC5E08063EA9835AE6A229BD2D8 /* MJRefreshNormalHeader.m */; };
+		57B0BA638E3DBA27D9F795359B6C930D /* XFLoadingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCEF6C3FEC0610A31BCC56C4251746A /* XFLoadingHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC52073043C7FCB7B075B784CF6E1A /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E70ED3D2BB08A7603BD2DDDC16194BF /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DFA85066C51844C81A22FC469C2EE05 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A47E8495C383F5A9421977EF91DD77A6 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E99D197383D0876632260B01E279774 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C16934DD0B5B3214BC95D3882D796CD2 /* MJRefreshComponent.m */; };
+		5EECF8D80AF9AF67BA0D135FC9AD0E38 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91265FDB11953582FFC49C486DBAE0D6 /* MJRefreshBackGifFooter.m */; };
+		600E9B5B03D1037648BE886439A48FCC /* XFLoadingHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C84420BE34594EB807B14C363516252 /* XFLoadingHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A507E7426311D7659BFA48A9260CEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6AE12F2BE6E02B5FD8CE827A10E8AB55 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 440556A85F8DA8E5B72FDB5E9D6D8E12 /* MJRefresh.bundle */; };
+		6EC5B668E7CB80854955DBA2D32D5F6F /* Pods-XFLoadingHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DFB7BF2E828EB8F0F5050AAB8B196 /* Pods-XFLoadingHUD_Example-dummy.m */; };
+		73FD93FACA51C4671B26C7A0B24ED1D5 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E83AAE0F6BF57C8FE73911AF7EB5560 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769EC78873E30FFE6BAA441A0ECBD675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8CD8E650D891C019637BEC903D4DFFF9 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C97BBF3E2863AB2C46F000D5CF221972 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D63FD9257BAA17CD3E29EADF4A9F4E3 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A4E0152C441F4BBB23877B0D55705 /* UIScrollView+MJRefresh.m */; };
+		920A3624A26DF21F4E5CC73E047FD76C /* XFLoadingHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE25AFCE31CBBEAA1665514666445CD /* XFLoadingHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9230DB3D735A7F6E202EEB12671512F9 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F61F6768CEF85385774662555A01A42 /* MJRefreshFooter.m */; };
+		9AB6A36247069FED8CE1E8A70B8078B2 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4EF43A66EEBCB63ABC26E5C38D2FAE /* MJRefresh-dummy.m */; };
+		9CDA530A42B7C68FC53AAA992365D93E /* UIView+XFLoadingAnimate.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D9628FF9BA294466F05D266B973939 /* UIView+XFLoadingAnimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E545607603CDE4089F91C59A377C140 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C9EEC479945AB6677E1F63B0BF83A3 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FB3E4C11A4AC3328DB00AFB3B8053B2 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DE7E023EB1DF40BC8AFE0DE0C3C19F /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2FDD43381F9B0EADD6B9B100285B8CE /* UIView+XFCircleLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA4B3E62A30A190C0E6E93CBB886AEB /* UIView+XFCircleLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB66F49F133FAE9BD9EAA9A29FAD75EE /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B495DD6672D390C41026B197633176 /* MJRefreshBackNormalFooter.m */; };
+		AFECA97AA0090421DFFC21C5BF6E8F75 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A080F9A6E4B12EEFB5A13C3FE5279138 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B20292439308665CB10E89D72D74BBB1 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D644BAC46C7FEFBB8DC046498EBB21 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B415F46A5638F090B1862FA2F6E158A9 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0391C299B85F3F121AB6A38444F628 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7047023050C77DF67D109FEE5D4DD6A /* XFLoadingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5789D254E5FA56668493E206D9A1D6 /* XFLoadingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B916F930055D78FCF69BD57C28485E0A /* Pusab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BE77CD0CB70CBDE9652D638B23F /* Pusab.ttf */; };
+		BD8D03BB3C22551D795835DEE60978CA /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CE85B75F120C38701DCE7CA1B711A7 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE43DEACA009E9432DC795654B80F43B /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 805AB2160FA06B96EC936BFF5595468A /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0CFB5EBBA6EA229E940436055CFF398 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F73CB94E7F04DA3AE6059633697DF /* MJRefreshGifHeader.m */; };
+		C11CD3314246419329D65ECC498663D2 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBBD133855CD5C808456FA1C615E37C /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2004148D1CFB411609112920E11EAEF /* UIView+XFCircleLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 106A3A42FBE53391EFC7659DC5A8AFB4 /* UIView+XFCircleLoading.m */; };
+		C7235549DF203F9F2EEB871C5AA22C47 /* XFRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F04402AAC7C54DD8335AD2D0540E69 /* XFRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73699EB31859B125378778082A62E60 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A166CF8BF4F375E60695CF80B9800FD6 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE37BE2455CAF2D20DADFC6B5116A46 /* XFLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 253895CBCFFEF44333A4F8B0F20F057C /* XFLoadingHUD.m */; };
+		D3D7E5D28E3A69CDE00EBF8CB78B7642 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FD7EF666A372966C977839120D1D68 /* MJRefreshAutoNormalFooter.m */; };
+		D6165F6C5CCDE592D3777F4D9F4164FA /* XFLoadingHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9EFB3C85B7A18A1EC4D21B85CF062 /* XFLoadingHUD-dummy.m */; };
+		DD1BDE91F143723CB7DA212EBEB24189 /* Pods-XFLoadingHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F386CAF0B0061A9F2199AB7D1474D525 /* Pods-XFLoadingHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE3E21758E986E744A24F30DA41B878 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AE826066B47F97BC23B78245B052BC /* UIScrollView+MJExtension.m */; };
+		E75BE8041D9C6207509DF929DDDA0609 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCB4A4792466B5D1FBDE21F5D5AFC5E /* MJRefreshBackFooter.m */; };
+		E7E79B836F4413E4DEC9729B1F2B9317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EA8F03E9D188A9086696DB8B093FAA1C /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDD602E5F9A2CECF101824FF3817A29 /* MJRefreshHeader.m */; };
+		ECB20F8E693B05B08F6F381A77EA8E9A /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EDE77B92F660497BB8108381E429C2 /* MJRefreshBackStateFooter.m */; };
+		F00EA71F61F8685D7E9117CDEC778D70 /* Pods-XFLoadingHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D042A3208D4FA3A784BBF492F67FD98A /* Pods-XFLoadingHUD_Tests-dummy.m */; };
+		FADC4D249D490A2C52E0D0F95F8A098F /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C75C0CFE8F43DFE4CD568FDC0F862BDE /* UIView+MJExtension.m */; };
+		FFE11CC03CCDF7E1887E287E90C98C88 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9B03DA50C76B8C7644B82A7A3F92EC /* MJRefreshConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2545C2DD9C2A07595067AE438E43DE71 /* PBXContainerItemProxy */ = {
+		1E0619A16A18E5F944FE3EDF5536C8FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1626CABC4973342CA64726423711E466;
-			remoteInfo = "Pods-XFLoadingHUD_Example";
-		};
-		3E732EC7C22975FCE2492A065684AFA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C97FDB9419B42BA6D6C47DC13DEDC52;
-			remoteInfo = "XFLoadingHUD-XFLoadingHUD";
-		};
-		951A915E3412F35168364AA9D8FF5620 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 546B747B9DB0515E059EEBA0B9E98B42;
+			remoteGlobalIDString = 6C76AC070DB65255C67667F7876EE238;
 			remoteInfo = MJRefresh;
 		};
-		D9E3D7698855B2FA4209DC4D98814E1D /* PBXContainerItemProxy */ = {
+		981703698C5BC28799FA4C510319482A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 546B747B9DB0515E059EEBA0B9E98B42;
-			remoteInfo = MJRefresh;
-		};
-		E55EC605F5FF01E89E45B2EBE6B6AAFB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8590CB1E74E51CF1F91504A8E0279462;
+			remoteGlobalIDString = 1AD5576716304766EE63E4E1DFA4BE48;
 			remoteInfo = XFLoadingHUD;
+		};
+		A8E84BC355A9C17C737E836B045A7047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C76AC070DB65255C67667F7876EE238;
+			remoteInfo = MJRefresh;
+		};
+		CEDF2C0367030445F2BBFB7C72BE222B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFC28E731005FB97533D60814EC7DA8;
+			remoteInfo = "Pods-XFLoadingHUD_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D848AF815E0097FBB84EE1D0DC9525 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
-		03D28E9BF63989356EA3BA5C0A49DF88 /* XFLoadingHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFLoadingHUD-dummy.m"; sourceTree = "<group>"; };
-		0BB121E004E64EDF54743BEA9E39E47D /* Pods-XFLoadingHUD_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFLoadingHUD_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		101BAB77B53BFCEAE7E48605E77993E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ACC47ED652C3A45F4AFC7ED038A9741 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
-		1DEA6A5AA24765C34062AC102B06D49C /* Pods_XFLoadingHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFLoadingHUD_Tests.framework; path = "Pods-XFLoadingHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2139D0A63D2347CD80C5D6F9273A2C10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		22423C0D9752CE12BC99436DC3E8D200 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
-		23A37D7DE642D8EFA145E0D3A472E96C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		23F9717796B8BB5A0C18C41CD9A84856 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
-		240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
-		25B0E81AEC1EA40F35396D75F73A2691 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25E1B990CE4C4CD728A278B17E09A203 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
-		28D452368B1E23E34CF464E99127DB84 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
-		2970467A63AAFA0B9F669E070084CED3 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
-		2A7D6998A720A4F72C5E60295FBAC081 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
-		2A8FF7AF8A14C7B50C338359C13B34F2 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		2FF9F7454D6F6BFD295023CF64ADB47E /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
-		304CC5D3C2AF74487F5E51E2BD351C87 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
-		31FF1A0FB915D51EBFBE9B0C0D45453B /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
-		359A4DE4AFFF1344A5481B9EE94ABAC4 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
-		399AAF1C3C81270C477811E90BCD5614 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
-		3D30CE7C143014A8C83820A009A72FCC /* Pods-XFLoadingHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoadingHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3D6CA0A599AA99D8D4849BE6F09120B4 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
-		3F9AFEA4F6BF5288C9EA1677E331369B /* XFLoadingHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFLoadingHUD-prefix.pch"; sourceTree = "<group>"; };
-		42A046535B8103DAFDE9A3C49C34A1F9 /* XFLoadingHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFLoadingHUD.h; path = XFLoadingHUD/Classes/XFLoadingHUD.h; sourceTree = "<group>"; };
-		4B7D3F43BD3B69B3F820563AB16FC7D9 /* Pods-XFLoadingHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFLoadingHUD_Example.modulemap"; sourceTree = "<group>"; };
-		4E76E1EBDA61652AF67CF443FD710002 /* XFLoadingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFLoadingHeader.h; path = XFLoadingHUD/Classes/XFLoadingHeader.h; sourceTree = "<group>"; };
-		50EF0EDC284F6623648E1747AD35811A /* Pods-XFLoadingHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFLoadingHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
-		52D586709AFB52415CCDC70DF4506910 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56E2B873C0E5CF8CE202CFB7CB9E61EF /* XFLoadingHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XFLoadingHUD.framework; path = XFLoadingHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57309008FBB5A448C30F7EE895C0D5E3 /* Pods-XFLoadingHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFLoadingHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A07C99BDF9377222C877878B01A0193 /* XFLoadingHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFLoadingHUD.xcconfig; sourceTree = "<group>"; };
-		5A2DF59988CB681D29225730AEE0F945 /* XFLoadingHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFLoadingHUD.modulemap; sourceTree = "<group>"; };
-		63BD542713DB783958252C7BE354F6B3 /* XFRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFRefreshHeader.h; path = XFLoadingHUD/Classes/XFRefreshHeader.h; sourceTree = "<group>"; };
-		641E546AC6B53889DB014C95014518AA /* Pods-XFLoadingHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFLoadingHUD_Tests-dummy.m"; sourceTree = "<group>"; };
-		665650130E0855BE030DD8665CF2A399 /* Pods-XFLoadingHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFLoadingHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D88BEDD1B5B89A24603DEEDA27376E2 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
-		772828D7C1B5EC016F2A391EE2153D58 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
-		7993EA84BABCC93F6187D17911E3A9B0 /* Pods-XFLoadingHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoadingHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7D15B42AC1F3A09112AC172D95B021D8 /* Pods_XFLoadingHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFLoadingHUD_Example.framework; path = "Pods-XFLoadingHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8022C772FF0B29781FCEBFF5851EDDF6 /* Pods-XFLoadingHUD_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFLoadingHUD_Tests-resources.sh"; sourceTree = "<group>"; };
-		80C2D37F44B8023A8CF4C53CED0BD482 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81EACF3B08AF26FA0FDD217EEED08455 /* Pods-XFLoadingHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoadingHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85DBD653F2D083BF866FD821BDED8FE0 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		88F383540172FC88452ECF5C293743DA /* UIView+XFLoadingAnimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XFLoadingAnimate.m"; path = "XFLoadingHUD/Classes/UIView+XFLoadingAnimate.m"; sourceTree = "<group>"; };
-		8954B747887B3EEF40608A45244C8836 /* XFLoadingButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFLoadingButton.h; path = XFLoadingHUD/Classes/XFLoadingButton.h; sourceTree = "<group>"; };
-		89E7FFE3499454CF2099186410BBF06F /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
-		8BE8B25D586142BCC0D6A486E4BE4362 /* XFLoadingHUD.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XFLoadingHUD.bundle; path = "XFLoadingHUD-XFLoadingHUD.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D53D446C1A575E9C721F18666A2C49B /* XFLoadingButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFLoadingButton.m; path = XFLoadingHUD/Classes/XFLoadingButton.m; sourceTree = "<group>"; };
-		8EB47CB3D2C2F5185F7A85B11AAED992 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
-		8EF1CC5B1CE4B106461CE38F0B1BAAC9 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
-		91E087BFF5A4C96024394F46FAB373F0 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94284DC13B4ED7DC5B98FB342F1733DB /* Pods-XFLoadingHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoadingHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		95959F04C94DDA65B9FFB6C650CFFA32 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		98D34BDA1D602E9426E95945864AE64E /* XFLoadingHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XFLoadingHUD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AFEAC70A48A0F5B2588C44FEFE53104 /* Pods-XFLoadingHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFLoadingHUD_Tests.modulemap"; sourceTree = "<group>"; };
-		9BF3ED4117E8669D0A80A95FA78F1B70 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
-		9C7F9AE22051BDBE67493DD290EC5FD9 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
-		9CD495E243B865555CCA84971329BB72 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
-		A3EF0592A4B748ACB6D2ECA2AD7B96C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A65AF0DDBD5843EF6BE10063EC1DE255 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
-		AB25D6AC8AD781DDF0985524395E7BB7 /* UIView+XFLoadingAnimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XFLoadingAnimate.h"; path = "XFLoadingHUD/Classes/UIView+XFLoadingAnimate.h"; sourceTree = "<group>"; };
-		AC7F891ADC5C55799D706102EC4C5209 /* UIView+XFCircleLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XFCircleLoading.h"; path = "XFLoadingHUD/Classes/UIView+XFCircleLoading.h"; sourceTree = "<group>"; };
-		AD80BC1238C1F025946C78EA689F9FD6 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
-		B20F7A8A8267E47D2E87FBBF7BE110BE /* XFRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFRefreshHeader.m; path = XFLoadingHUD/Classes/XFRefreshHeader.m; sourceTree = "<group>"; };
-		B572762D25AE884A6E6025CD584CA279 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
-		B8385667FD4EA3C9721B85009B9F428E /* Pusab.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Pusab.ttf; path = XFLoadingHUD/Assets/Pusab.ttf; sourceTree = "<group>"; };
-		BA5A76924F5BD58FB53AD9A7B2A1AFB3 /* ResourceBundle-XFLoadingHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XFLoadingHUD-Info.plist"; sourceTree = "<group>"; };
-		BCBFB5C2A3FCF292E4C8F9355FD0F053 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
-		C462EB7C5A1BFAAAA88A2A69302D6D0D /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
-		C59CA3B35611069886BD9B24209A66D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C894A94742B699404A027E64947CE03B /* Pods-XFLoadingHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFLoadingHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C9FCFA9C7618D0EF63681404B1649D15 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
-		CD0799BB500F75019954F20434A4457B /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
-		CD7796E0B84D08F3954CB2285480571B /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
-		D0401FABA9B4595B0308600DB6BD20A3 /* Pods-XFLoadingHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoadingHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D08C87668D5079F8C4B61B3D95436F64 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
-		D156FE66233F9837692DC3CE7C7C5BE2 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
-		D3494A5480373FC3C9BDB523B7E08DB9 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
-		D5CCB235447F3E18360C0DAB5E88F117 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
-		D8958DD64D4F8B06313515F077270881 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
-		D9FE37D6C27365FC5DB7076DB6A5080B /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
-		DBDD4F1082C6683DB13A86B59AE6A625 /* Pods-XFLoadingHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFLoadingHUD_Example-dummy.m"; sourceTree = "<group>"; };
-		DD4F7B9549F67D96D01AFE6CBA3C4078 /* Pods-XFLoadingHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoadingHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6152B094EC2308994892CDDA977AECA /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
-		E6643DEB2913C3EFD0B2310908C6B17D /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
-		ECFCB54B93C2FE85850118A9F0F76992 /* Pods-XFLoadingHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFLoadingHUD_Example-umbrella.h"; sourceTree = "<group>"; };
-		EE2B4696159A0538F243EBA10D806A13 /* Pods-XFLoadingHUD_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFLoadingHUD_Example-resources.sh"; sourceTree = "<group>"; };
-		F11A9CF95BDF115632C1C93600CE395E /* XFLoadingHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFLoadingHUD-umbrella.h"; sourceTree = "<group>"; };
-		F1604E7B9DB88EF0843279A3CF2928F5 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
-		F1A111851B3054FEDC84D1FF7557D15A /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
-		F5C7BEA664FE8AD9D29FDE3A78A9E8A0 /* XFLoadingHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFLoadingHUD.m; path = XFLoadingHUD/Classes/XFLoadingHUD.m; sourceTree = "<group>"; };
-		FAA6A1B89A75AE1019BE23B1AA1E6B62 /* UIView+XFCircleLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XFCircleLoading.m"; path = "XFLoadingHUD/Classes/UIView+XFCircleLoading.m"; sourceTree = "<group>"; };
+		01F297B1BCBBF2BD77C6528D30EC105F /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		03EDE77B92F660497BB8108381E429C2 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		0666EE15703324E75273DBADE2107CC7 /* Pods-XFLoadingHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFLoadingHUD_Example-umbrella.h"; sourceTree = "<group>"; };
+		070A6F711CFA4946A8B429F72C16A346 /* XFLoadingHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFLoadingHUD.modulemap; sourceTree = "<group>"; };
+		0B48A3F09684EA06B7E476A27EB862E1 /* Pods-XFLoadingHUD_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFLoadingHUD_Example-resources.sh"; sourceTree = "<group>"; };
+		0DD7528381F098920AA2785FF51CCDAB /* XFLoadingHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XFLoadingHUD.framework; path = XFLoadingHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E70ED3D2BB08A7603BD2DDDC16194BF /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		106A3A42FBE53391EFC7659DC5A8AFB4 /* UIView+XFCircleLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XFCircleLoading.m"; path = "XFLoadingHUD/Classes/UIView+XFCircleLoading.m"; sourceTree = "<group>"; };
+		10CFBF1CF2C5D29ED2C336646FA75955 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		1343D0C86F7926093DA78C732A2BAAE1 /* Pods-XFLoadingHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoadingHUD_Example-Info.plist"; sourceTree = "<group>"; };
+		144DFB7BF2E828EB8F0F5050AAB8B196 /* Pods-XFLoadingHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFLoadingHUD_Example-dummy.m"; sourceTree = "<group>"; };
+		18519779DB091C2D70D82AF033B88FEA /* Pods-XFLoadingHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFLoadingHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1E8A4E0152C441F4BBB23877B0D55705 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		2033F360356B90F206E2C394B8073003 /* Pods-XFLoadingHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFLoadingHUD_Tests.modulemap"; sourceTree = "<group>"; };
+		247DE9AC072EFEB7ED4A006BE791EC5C /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		2528E521BC0177837EE842923BE61A54 /* XFLoadingButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFLoadingButton.m; path = XFLoadingHUD/Classes/XFLoadingButton.m; sourceTree = "<group>"; };
+		253895CBCFFEF44333A4F8B0F20F057C /* XFLoadingHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFLoadingHUD.m; path = XFLoadingHUD/Classes/XFLoadingHUD.m; sourceTree = "<group>"; };
+		28CE85B75F120C38701DCE7CA1B711A7 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		2AA9EFB3C85B7A18A1EC4D21B85CF062 /* XFLoadingHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFLoadingHUD-dummy.m"; sourceTree = "<group>"; };
+		2D7DB7ABFB101C6E181C81DCA1F958E9 /* Pods-XFLoadingHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFLoadingHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E83AAE0F6BF57C8FE73911AF7EB5560 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		30ECDF27FB7F449514A876AA68F323E7 /* XFLoadingHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFLoadingHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33490135380AF8592F0CF6E8053991DB /* Pods-XFLoadingHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoadingHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		370A5711ACEC28C0B1794B0D3D11693B /* XFLoadingHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFLoadingHUD-Info.plist"; sourceTree = "<group>"; };
+		3F1E1BE77CD0CB70CBDE9652D638B23F /* Pusab.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Pusab.ttf; path = XFLoadingHUD/Assets/Pusab.ttf; sourceTree = "<group>"; };
+		440556A85F8DA8E5B72FDB5E9D6D8E12 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		4E85C24A7AB8D92E0A4434D1298F148E /* Pods-XFLoadingHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoadingHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		52FD7EF666A372966C977839120D1D68 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		532527217F7333D836EC1D6CA8C52F8E /* XFLoadingHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFLoadingHUD.xcconfig; sourceTree = "<group>"; };
+		5A4FFAA7CC2AE8992B4CB861F75E755E /* Pods-XFLoadingHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoadingHUD_Tests-Info.plist"; sourceTree = "<group>"; };
+		5B4F73CB94E7F04DA3AE6059633697DF /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		5C0391C299B85F3F121AB6A38444F628 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		5EBBD133855CD5C808456FA1C615E37C /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		5FB570F8597EEB02D7081721DDD583E7 /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
+		646DC632F5387666462A60A2E6447353 /* Pods-XFLoadingHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoadingHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		653D5345BC74205543A59962C4844AD6 /* Pods-XFLoadingHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoadingHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67730E1576D9FC4628CE9F94C1C75A8C /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		69FE208D8E09C70559F4733813A46D44 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		6A7E316A093424EE336C9AA9B1BC520C /* Pods-XFLoadingHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoadingHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		74A7B79DBD522E36645EB9C64FD1C68B /* XFLoadingHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFLoadingHUD-prefix.pch"; sourceTree = "<group>"; };
+		77AE583C2955BA44E91527452EA60F31 /* XFRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFRefreshHeader.m; path = XFLoadingHUD/Classes/XFRefreshHeader.m; sourceTree = "<group>"; };
+		794431DB0511FA7F5BF485DE46730788 /* UIView+XFLoadingAnimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XFLoadingAnimate.m"; path = "XFLoadingHUD/Classes/UIView+XFLoadingAnimate.m"; sourceTree = "<group>"; };
+		7C004CB3AD951D7C855BF0FA67FF6BDD /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		7C6BE875C5552C49F250A0BBCC5D3D4F /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		7C84420BE34594EB807B14C363516252 /* XFLoadingHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFLoadingHUD-umbrella.h"; sourceTree = "<group>"; };
+		805AB2160FA06B96EC936BFF5595468A /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		8CF197B053CA21D0FD6E1B100A8B1DD5 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		8E12ABEF0C5588AF80FA3E6C2BB9F0E0 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		8F61F6768CEF85385774662555A01A42 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		90B495DD6672D390C41026B197633176 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		91265FDB11953582FFC49C486DBAE0D6 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		9A29EECC9FBEC2F31568E0DE5376C47B /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		9C5789D254E5FA56668493E206D9A1D6 /* XFLoadingButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFLoadingButton.h; path = XFLoadingHUD/Classes/XFLoadingButton.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A080F9A6E4B12EEFB5A13C3FE5279138 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		A166CF8BF4F375E60695CF80B9800FD6 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		A2F04402AAC7C54DD8335AD2D0540E69 /* XFRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFRefreshHeader.h; path = XFLoadingHUD/Classes/XFRefreshHeader.h; sourceTree = "<group>"; };
+		A47E8495C383F5A9421977EF91DD77A6 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		AAE7CD923C9813A821570E8BC0327BC9 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		ACF19D2B432578EB3DD05FBF92CF4146 /* Pods-XFLoadingHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFLoadingHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE4EF43A66EEBCB63ABC26E5C38D2FAE /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		B199F4F38CCA74A03AE794BADB946D0F /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		B3C9EEC479945AB6677E1F63B0BF83A3 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		C16934DD0B5B3214BC95D3882D796CD2 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		C33D99898015320A057FFA68FF4BE5A9 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		C75C0CFE8F43DFE4CD568FDC0F862BDE /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		C97BBF3E2863AB2C46F000D5CF221972 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0307A90EA869E46AB69C90AD2C8F333 /* Pods-XFLoadingHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoadingHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D042A3208D4FA3A784BBF492F67FD98A /* Pods-XFLoadingHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFLoadingHUD_Tests-dummy.m"; sourceTree = "<group>"; };
+		D172866FA68C45373A3D67367C4E936D /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AE826066B47F97BC23B78245B052BC /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		D58E79A297DFF81D855B1EBF6FBF03F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D7742339ADB64F21F1797F251AD98A99 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		D7B5F4EE44E57A66DF48D34733811CD5 /* Pods_XFLoadingHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFLoadingHUD_Tests.framework; path = "Pods-XFLoadingHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E151C1CEF2F0262A7D26C3FAC3E6F270 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		E6DE7E023EB1DF40BC8AFE0DE0C3C19F /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		E7D644BAC46C7FEFBB8DC046498EBB21 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
+		E84EE6BE2954895F642BEC1DF5B6F6AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E9E855577DA1CD5481ACE23D7AB62F7B /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		EAA4B3E62A30A190C0E6E93CBB886AEB /* UIView+XFCircleLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XFCircleLoading.h"; path = "XFLoadingHUD/Classes/UIView+XFCircleLoading.h"; sourceTree = "<group>"; };
+		EB9B03DA50C76B8C7644B82A7A3F92EC /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		EBCB4A4792466B5D1FBDE21F5D5AFC5E /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		EBDD602E5F9A2CECF101824FF3817A29 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		EC136BC5E08063EA9835AE6A229BD2D8 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		EDCEF6C3FEC0610A31BCC56C4251746A /* XFLoadingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFLoadingHeader.h; path = XFLoadingHUD/Classes/XFLoadingHeader.h; sourceTree = "<group>"; };
+		EFE25AFCE31CBBEAA1665514666445CD /* XFLoadingHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFLoadingHUD.h; path = XFLoadingHUD/Classes/XFLoadingHUD.h; sourceTree = "<group>"; };
+		F2D9628FF9BA294466F05D266B973939 /* UIView+XFLoadingAnimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XFLoadingAnimate.h"; path = "XFLoadingHUD/Classes/UIView+XFLoadingAnimate.h"; sourceTree = "<group>"; };
+		F386CAF0B0061A9F2199AB7D1474D525 /* Pods-XFLoadingHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFLoadingHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F8C0D26FF2C5CB1E2362A63F9CDDB3B1 /* Pods_XFLoadingHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFLoadingHUD_Example.framework; path = "Pods-XFLoadingHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DBBE8F67A52689C193637AC2CE1A92 /* Pods-XFLoadingHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFLoadingHUD_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		061C4AB9677C5D0585DDF72C9FD0B8CC /* Frameworks */ = {
+		293DDD84988E7C373D41FD23432577BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				673FB2A196CBC1723002C94113D6CE5B /* Foundation.framework in Frameworks */,
-				EA866BC5473D500728620C9E37B23174 /* MJRefresh.framework in Frameworks */,
+				769EC78873E30FFE6BAA441A0ECBD675 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4330790BF93619542494717EF5872A17 /* Frameworks */ = {
+		413E9869A7EA19779F95E3998FF73853 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD549FDDF8E18393542908E05DF10310 /* Foundation.framework in Frameworks */,
+				E7E79B836F4413E4DEC9729B1F2B9317 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89400B1DB52D1002F89DE5F7B4C0177F /* Frameworks */ = {
+		AFE59E28961E719D41451F086E3C98F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89AC93BD49DF0AB233EF0B6893AF60C5 /* Foundation.framework in Frameworks */,
+				6A507E7426311D7659BFA48A9260CEDA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		947623F5C7CB8377AC36CE14092DA142 /* Frameworks */ = {
+		DC98B5204EFBE39E3EFFE52FAF998F91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2D95323DF4B5C83C703A2E58106F00C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B41F98FF653E71431334FC3314A5D127 /* Foundation.framework in Frameworks */,
+				33F080559506C31CAE3D55E37E6BA606 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CD1F1B3DBB711F2545AF5DF3CD992F1 /* MJRefresh */ = {
+		10ACF3997EAAFAEA51882A9A8A4D5FB2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				23F9717796B8BB5A0C18C41CD9A84856 /* MJRefresh.h */,
-				89E7FFE3499454CF2099186410BBF06F /* MJRefreshAutoFooter.h */,
-				3D6CA0A599AA99D8D4849BE6F09120B4 /* MJRefreshAutoFooter.m */,
-				2FF9F7454D6F6BFD295023CF64ADB47E /* MJRefreshAutoGifFooter.h */,
-				C462EB7C5A1BFAAAA88A2A69302D6D0D /* MJRefreshAutoGifFooter.m */,
-				A65AF0DDBD5843EF6BE10063EC1DE255 /* MJRefreshAutoNormalFooter.h */,
-				2A8FF7AF8A14C7B50C338359C13B34F2 /* MJRefreshAutoNormalFooter.m */,
-				85DBD653F2D083BF866FD821BDED8FE0 /* MJRefreshAutoStateFooter.h */,
-				1ACC47ED652C3A45F4AFC7ED038A9741 /* MJRefreshAutoStateFooter.m */,
-				28D452368B1E23E34CF464E99127DB84 /* MJRefreshBackFooter.h */,
-				C9FCFA9C7618D0EF63681404B1649D15 /* MJRefreshBackFooter.m */,
-				E6152B094EC2308994892CDDA977AECA /* MJRefreshBackGifFooter.h */,
-				91E087BFF5A4C96024394F46FAB373F0 /* MJRefreshBackGifFooter.m */,
-				772828D7C1B5EC016F2A391EE2153D58 /* MJRefreshBackNormalFooter.h */,
-				31FF1A0FB915D51EBFBE9B0C0D45453B /* MJRefreshBackNormalFooter.m */,
-				2A7D6998A720A4F72C5E60295FBAC081 /* MJRefreshBackStateFooter.h */,
-				22423C0D9752CE12BC99436DC3E8D200 /* MJRefreshBackStateFooter.m */,
-				CD0799BB500F75019954F20434A4457B /* MJRefreshComponent.h */,
-				D9FE37D6C27365FC5DB7076DB6A5080B /* MJRefreshComponent.m */,
-				D3494A5480373FC3C9BDB523B7E08DB9 /* MJRefreshConst.h */,
-				D8958DD64D4F8B06313515F077270881 /* MJRefreshConst.m */,
-				01D848AF815E0097FBB84EE1D0DC9525 /* MJRefreshFooter.h */,
-				25E1B990CE4C4CD728A278B17E09A203 /* MJRefreshFooter.m */,
-				95959F04C94DDA65B9FFB6C650CFFA32 /* MJRefreshGifHeader.h */,
-				BCBFB5C2A3FCF292E4C8F9355FD0F053 /* MJRefreshGifHeader.m */,
-				D5CCB235447F3E18360C0DAB5E88F117 /* MJRefreshHeader.h */,
-				6D88BEDD1B5B89A24603DEEDA27376E2 /* MJRefreshHeader.m */,
-				9CD495E243B865555CCA84971329BB72 /* MJRefreshNormalHeader.h */,
-				9C7F9AE22051BDBE67493DD290EC5FD9 /* MJRefreshNormalHeader.m */,
-				9BF3ED4117E8669D0A80A95FA78F1B70 /* MJRefreshStateHeader.h */,
-				CD7796E0B84D08F3954CB2285480571B /* MJRefreshStateHeader.m */,
-				F1604E7B9DB88EF0843279A3CF2928F5 /* NSBundle+MJRefresh.h */,
-				399AAF1C3C81270C477811E90BCD5614 /* NSBundle+MJRefresh.m */,
-				E6643DEB2913C3EFD0B2310908C6B17D /* UIScrollView+MJExtension.h */,
-				B572762D25AE884A6E6025CD584CA279 /* UIScrollView+MJExtension.m */,
-				2970467A63AAFA0B9F669E070084CED3 /* UIScrollView+MJRefresh.h */,
-				359A4DE4AFFF1344A5481B9EE94ABAC4 /* UIScrollView+MJRefresh.m */,
-				AD80BC1238C1F025946C78EA689F9FD6 /* UIView+MJExtension.h */,
-				8EF1CC5B1CE4B106461CE38F0B1BAAC9 /* UIView+MJExtension.m */,
-				6A06433F80093BADBE67BFF332FBA5A5 /* Resources */,
-				2F7A31F2CC7696BDCA31131421062736 /* Support Files */,
+				440556A85F8DA8E5B72FDB5E9D6D8E12 /* MJRefresh.bundle */,
 			);
-			name = MJRefresh;
-			path = MJRefresh;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		108E44EE61E2AB1A3E497F58BABC59BB /* Development Pods */ = {
+		1DF64586FA8CEE43E1BAFBF450DF4DBF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D7415FE645A6D29E8CDF3DEBE57C33C7 /* XFLoadingHUD */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		28DB33729C60EC9D8DCA40EA465F7002 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				80C2D37F44B8023A8CF4C53CED0BD482 /* Info.plist */,
-				BA5A76924F5BD58FB53AD9A7B2A1AFB3 /* ResourceBundle-XFLoadingHUD-Info.plist */,
-				5A2DF59988CB681D29225730AEE0F945 /* XFLoadingHUD.modulemap */,
-				5A07C99BDF9377222C877878B01A0193 /* XFLoadingHUD.xcconfig */,
-				03D28E9BF63989356EA3BA5C0A49DF88 /* XFLoadingHUD-dummy.m */,
-				3F9AFEA4F6BF5288C9EA1677E331369B /* XFLoadingHUD-prefix.pch */,
-				F11A9CF95BDF115632C1C93600CE395E /* XFLoadingHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XFLoadingHUD";
-			sourceTree = "<group>";
-		};
-		2F7A31F2CC7696BDCA31131421062736 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C59CA3B35611069886BD9B24209A66D8 /* Info.plist */,
-				F1A111851B3054FEDC84D1FF7557D15A /* MJRefresh.modulemap */,
-				240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */,
-				D156FE66233F9837692DC3CE7C7C5BE2 /* MJRefresh-dummy.m */,
-				8EB47CB3D2C2F5185F7A85B11AAED992 /* MJRefresh-prefix.pch */,
-				D08C87668D5079F8C4B61B3D95436F64 /* MJRefresh-umbrella.h */,
+				E9E855577DA1CD5481ACE23D7AB62F7B /* MJRefresh.modulemap */,
+				247DE9AC072EFEB7ED4A006BE791EC5C /* MJRefresh.xcconfig */,
+				AE4EF43A66EEBCB63ABC26E5C38D2FAE /* MJRefresh-dummy.m */,
+				5FB570F8597EEB02D7081721DDD583E7 /* MJRefresh-Info.plist */,
+				67730E1576D9FC4628CE9F94C1C75A8C /* MJRefresh-prefix.pch */,
+				E7D644BAC46C7FEFBB8DC046498EBB21 /* MJRefresh-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MJRefresh";
 			sourceTree = "<group>";
 		};
-		301ED1427A6D5A4C9A826E77FC6AF1D3 /* Pods-XFLoadingHUD_Example */ = {
+		24A1440A6EBD0899A97C8FADFBD91789 /* XFLoadingHUD */ = {
 			isa = PBXGroup;
 			children = (
-				25B0E81AEC1EA40F35396D75F73A2691 /* Info.plist */,
-				4B7D3F43BD3B69B3F820563AB16FC7D9 /* Pods-XFLoadingHUD_Example.modulemap */,
-				665650130E0855BE030DD8665CF2A399 /* Pods-XFLoadingHUD_Example-acknowledgements.markdown */,
-				DD4F7B9549F67D96D01AFE6CBA3C4078 /* Pods-XFLoadingHUD_Example-acknowledgements.plist */,
-				DBDD4F1082C6683DB13A86B59AE6A625 /* Pods-XFLoadingHUD_Example-dummy.m */,
-				50EF0EDC284F6623648E1747AD35811A /* Pods-XFLoadingHUD_Example-frameworks.sh */,
-				EE2B4696159A0538F243EBA10D806A13 /* Pods-XFLoadingHUD_Example-resources.sh */,
-				ECFCB54B93C2FE85850118A9F0F76992 /* Pods-XFLoadingHUD_Example-umbrella.h */,
-				3D30CE7C143014A8C83820A009A72FCC /* Pods-XFLoadingHUD_Example.debug.xcconfig */,
-				81EACF3B08AF26FA0FDD217EEED08455 /* Pods-XFLoadingHUD_Example.release.xcconfig */,
-			);
-			name = "Pods-XFLoadingHUD_Example";
-			path = "Target Support Files/Pods-XFLoadingHUD_Example";
-			sourceTree = "<group>";
-		};
-		50371640C086C4E759A2C17ECD1B5918 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				52D586709AFB52415CCDC70DF4506910 /* MJRefresh.framework */,
-				7D15B42AC1F3A09112AC172D95B021D8 /* Pods_XFLoadingHUD_Example.framework */,
-				1DEA6A5AA24765C34062AC102B06D49C /* Pods_XFLoadingHUD_Tests.framework */,
-				8BE8B25D586142BCC0D6A486E4BE4362 /* XFLoadingHUD.bundle */,
-				56E2B873C0E5CF8CE202CFB7CB9E61EF /* XFLoadingHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6A06433F80093BADBE67BFF332FBA5A5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				304CC5D3C2AF74487F5E51E2BD351C87 /* MJRefresh.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6FE2E3637DF19E65BBD342992FF21B1A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				301ED1427A6D5A4C9A826E77FC6AF1D3 /* Pods-XFLoadingHUD_Example */,
-				E65A2177B1AB34E368220421FD372A2C /* Pods-XFLoadingHUD_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				108E44EE61E2AB1A3E497F58BABC59BB /* Development Pods */,
-				FF0EAEB5F9487FB7A4384FBA6D0CC78D /* Frameworks */,
-				DD0132D41CBFCB2611DA7EABABDA47E4 /* Pods */,
-				50371640C086C4E759A2C17ECD1B5918 /* Products */,
-				6FE2E3637DF19E65BBD342992FF21B1A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		852059443BBE8CB01DFA272741857549 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A3EF0592A4B748ACB6D2ECA2AD7B96C2 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8A618C4D58B522478556AB667B6052E9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B8385667FD4EA3C9721B85009B9F428E /* Pusab.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		D7415FE645A6D29E8CDF3DEBE57C33C7 /* XFLoadingHUD */ = {
-			isa = PBXGroup;
-			children = (
-				AC7F891ADC5C55799D706102EC4C5209 /* UIView+XFCircleLoading.h */,
-				FAA6A1B89A75AE1019BE23B1AA1E6B62 /* UIView+XFCircleLoading.m */,
-				AB25D6AC8AD781DDF0985524395E7BB7 /* UIView+XFLoadingAnimate.h */,
-				88F383540172FC88452ECF5C293743DA /* UIView+XFLoadingAnimate.m */,
-				8954B747887B3EEF40608A45244C8836 /* XFLoadingButton.h */,
-				8D53D446C1A575E9C721F18666A2C49B /* XFLoadingButton.m */,
-				4E76E1EBDA61652AF67CF443FD710002 /* XFLoadingHeader.h */,
-				42A046535B8103DAFDE9A3C49C34A1F9 /* XFLoadingHUD.h */,
-				F5C7BEA664FE8AD9D29FDE3A78A9E8A0 /* XFLoadingHUD.m */,
-				63BD542713DB783958252C7BE354F6B3 /* XFRefreshHeader.h */,
-				B20F7A8A8267E47D2E87FBBF7BE110BE /* XFRefreshHeader.m */,
-				FEC27B5920E02657B2868117663E0762 /* Pod */,
-				8A618C4D58B522478556AB667B6052E9 /* Resources */,
-				28DB33729C60EC9D8DCA40EA465F7002 /* Support Files */,
+				EAA4B3E62A30A190C0E6E93CBB886AEB /* UIView+XFCircleLoading.h */,
+				106A3A42FBE53391EFC7659DC5A8AFB4 /* UIView+XFCircleLoading.m */,
+				F2D9628FF9BA294466F05D266B973939 /* UIView+XFLoadingAnimate.h */,
+				794431DB0511FA7F5BF485DE46730788 /* UIView+XFLoadingAnimate.m */,
+				9C5789D254E5FA56668493E206D9A1D6 /* XFLoadingButton.h */,
+				2528E521BC0177837EE842923BE61A54 /* XFLoadingButton.m */,
+				EDCEF6C3FEC0610A31BCC56C4251746A /* XFLoadingHeader.h */,
+				EFE25AFCE31CBBEAA1665514666445CD /* XFLoadingHUD.h */,
+				253895CBCFFEF44333A4F8B0F20F057C /* XFLoadingHUD.m */,
+				A2F04402AAC7C54DD8335AD2D0540E69 /* XFRefreshHeader.h */,
+				77AE583C2955BA44E91527452EA60F31 /* XFRefreshHeader.m */,
+				84ED3BD070758044A5625CC5B0FA3B70 /* Pod */,
+				5A8AD4A22AD9D71A4CCCF7A5BBC365F0 /* Resources */,
+				D8736D7EBDCA6BB21C9732CC9D4B0B3E /* Support Files */,
 			);
 			name = XFLoadingHUD;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		DD0132D41CBFCB2611DA7EABABDA47E4 /* Pods */ = {
+		459BCA6C502B6B3811036895CD2D24CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CD1F1B3DBB711F2545AF5DF3CD992F1 /* MJRefresh */,
+				D172866FA68C45373A3D67367C4E936D /* MJRefresh.framework */,
+				F8C0D26FF2C5CB1E2362A63F9CDDB3B1 /* Pods_XFLoadingHUD_Example.framework */,
+				D7B5F4EE44E57A66DF48D34733811CD5 /* Pods_XFLoadingHUD_Tests.framework */,
+				0DD7528381F098920AA2785FF51CCDAB /* XFLoadingHUD.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E65A2177B1AB34E368220421FD372A2C /* Pods-XFLoadingHUD_Tests */ = {
+		5A8AD4A22AD9D71A4CCCF7A5BBC365F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				101BAB77B53BFCEAE7E48605E77993E5 /* Info.plist */,
-				9AFEAC70A48A0F5B2588C44FEFE53104 /* Pods-XFLoadingHUD_Tests.modulemap */,
-				57309008FBB5A448C30F7EE895C0D5E3 /* Pods-XFLoadingHUD_Tests-acknowledgements.markdown */,
-				94284DC13B4ED7DC5B98FB342F1733DB /* Pods-XFLoadingHUD_Tests-acknowledgements.plist */,
-				641E546AC6B53889DB014C95014518AA /* Pods-XFLoadingHUD_Tests-dummy.m */,
-				0BB121E004E64EDF54743BEA9E39E47D /* Pods-XFLoadingHUD_Tests-frameworks.sh */,
-				8022C772FF0B29781FCEBFF5851EDDF6 /* Pods-XFLoadingHUD_Tests-resources.sh */,
-				C894A94742B699404A027E64947CE03B /* Pods-XFLoadingHUD_Tests-umbrella.h */,
-				7993EA84BABCC93F6187D17911E3A9B0 /* Pods-XFLoadingHUD_Tests.debug.xcconfig */,
-				D0401FABA9B4595B0308600DB6BD20A3 /* Pods-XFLoadingHUD_Tests.release.xcconfig */,
+				3F1E1BE77CD0CB70CBDE9652D638B23F /* Pusab.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5F4B801ED27CD1E45322AA78C95140B9 /* Pods-XFLoadingHUD_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8DBBE8F67A52689C193637AC2CE1A92 /* Pods-XFLoadingHUD_Example.modulemap */,
+				2D7DB7ABFB101C6E181C81DCA1F958E9 /* Pods-XFLoadingHUD_Example-acknowledgements.markdown */,
+				6A7E316A093424EE336C9AA9B1BC520C /* Pods-XFLoadingHUD_Example-acknowledgements.plist */,
+				144DFB7BF2E828EB8F0F5050AAB8B196 /* Pods-XFLoadingHUD_Example-dummy.m */,
+				18519779DB091C2D70D82AF033B88FEA /* Pods-XFLoadingHUD_Example-frameworks.sh */,
+				1343D0C86F7926093DA78C732A2BAAE1 /* Pods-XFLoadingHUD_Example-Info.plist */,
+				0B48A3F09684EA06B7E476A27EB862E1 /* Pods-XFLoadingHUD_Example-resources.sh */,
+				0666EE15703324E75273DBADE2107CC7 /* Pods-XFLoadingHUD_Example-umbrella.h */,
+				33490135380AF8592F0CF6E8053991DB /* Pods-XFLoadingHUD_Example.debug.xcconfig */,
+				D0307A90EA869E46AB69C90AD2C8F333 /* Pods-XFLoadingHUD_Example.release.xcconfig */,
+			);
+			name = "Pods-XFLoadingHUD_Example";
+			path = "Target Support Files/Pods-XFLoadingHUD_Example";
+			sourceTree = "<group>";
+		};
+		63DC1623B9A2B2E61BD8C926F532AD7F /* Pods-XFLoadingHUD_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2033F360356B90F206E2C394B8073003 /* Pods-XFLoadingHUD_Tests.modulemap */,
+				ACF19D2B432578EB3DD05FBF92CF4146 /* Pods-XFLoadingHUD_Tests-acknowledgements.markdown */,
+				646DC632F5387666462A60A2E6447353 /* Pods-XFLoadingHUD_Tests-acknowledgements.plist */,
+				D042A3208D4FA3A784BBF492F67FD98A /* Pods-XFLoadingHUD_Tests-dummy.m */,
+				5A4FFAA7CC2AE8992B4CB861F75E755E /* Pods-XFLoadingHUD_Tests-Info.plist */,
+				F386CAF0B0061A9F2199AB7D1474D525 /* Pods-XFLoadingHUD_Tests-umbrella.h */,
+				4E85C24A7AB8D92E0A4434D1298F148E /* Pods-XFLoadingHUD_Tests.debug.xcconfig */,
+				653D5345BC74205543A59962C4844AD6 /* Pods-XFLoadingHUD_Tests.release.xcconfig */,
 			);
 			name = "Pods-XFLoadingHUD_Tests";
 			path = "Target Support Files/Pods-XFLoadingHUD_Tests";
 			sourceTree = "<group>";
 		};
-		FEC27B5920E02657B2868117663E0762 /* Pod */ = {
+		84ED3BD070758044A5625CC5B0FA3B70 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2139D0A63D2347CD80C5D6F9273A2C10 /* LICENSE */,
-				23A37D7DE642D8EFA145E0D3A472E96C /* README.md */,
-				98D34BDA1D602E9426E95945864AE64E /* XFLoadingHUD.podspec */,
+				D58E79A297DFF81D855B1EBF6FBF03F9 /* LICENSE */,
+				E84EE6BE2954895F642BEC1DF5B6F6AE /* README.md */,
+				30ECDF27FB7F449514A876AA68F323E7 /* XFLoadingHUD.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		FF0EAEB5F9487FB7A4384FBA6D0CC78D /* Frameworks */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */,
-				852059443BBE8CB01DFA272741857549 /* iOS */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C86338C30E7057D957FFE369A7BC33B0 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E6DE7E023EB1DF40BC8AFE0DE0C3C19F /* MJRefresh.h */,
+				28CE85B75F120C38701DCE7CA1B711A7 /* MJRefreshAutoFooter.h */,
+				8E12ABEF0C5588AF80FA3E6C2BB9F0E0 /* MJRefreshAutoFooter.m */,
+				E151C1CEF2F0262A7D26C3FAC3E6F270 /* MJRefreshAutoGifFooter.h */,
+				69FE208D8E09C70559F4733813A46D44 /* MJRefreshAutoGifFooter.m */,
+				805AB2160FA06B96EC936BFF5595468A /* MJRefreshAutoNormalFooter.h */,
+				52FD7EF666A372966C977839120D1D68 /* MJRefreshAutoNormalFooter.m */,
+				C97BBF3E2863AB2C46F000D5CF221972 /* MJRefreshAutoStateFooter.h */,
+				B199F4F38CCA74A03AE794BADB946D0F /* MJRefreshAutoStateFooter.m */,
+				10CFBF1CF2C5D29ED2C336646FA75955 /* MJRefreshBackFooter.h */,
+				EBCB4A4792466B5D1FBDE21F5D5AFC5E /* MJRefreshBackFooter.m */,
+				A47E8495C383F5A9421977EF91DD77A6 /* MJRefreshBackGifFooter.h */,
+				91265FDB11953582FFC49C486DBAE0D6 /* MJRefreshBackGifFooter.m */,
+				B3C9EEC479945AB6677E1F63B0BF83A3 /* MJRefreshBackNormalFooter.h */,
+				90B495DD6672D390C41026B197633176 /* MJRefreshBackNormalFooter.m */,
+				8CF197B053CA21D0FD6E1B100A8B1DD5 /* MJRefreshBackStateFooter.h */,
+				03EDE77B92F660497BB8108381E429C2 /* MJRefreshBackStateFooter.m */,
+				9A29EECC9FBEC2F31568E0DE5376C47B /* MJRefreshComponent.h */,
+				C16934DD0B5B3214BC95D3882D796CD2 /* MJRefreshComponent.m */,
+				7C004CB3AD951D7C855BF0FA67FF6BDD /* MJRefreshConst.h */,
+				EB9B03DA50C76B8C7644B82A7A3F92EC /* MJRefreshConst.m */,
+				5C0391C299B85F3F121AB6A38444F628 /* MJRefreshFooter.h */,
+				8F61F6768CEF85385774662555A01A42 /* MJRefreshFooter.m */,
+				7C6BE875C5552C49F250A0BBCC5D3D4F /* MJRefreshGifHeader.h */,
+				5B4F73CB94E7F04DA3AE6059633697DF /* MJRefreshGifHeader.m */,
+				0E70ED3D2BB08A7603BD2DDDC16194BF /* MJRefreshHeader.h */,
+				EBDD602E5F9A2CECF101824FF3817A29 /* MJRefreshHeader.m */,
+				A080F9A6E4B12EEFB5A13C3FE5279138 /* MJRefreshNormalHeader.h */,
+				EC136BC5E08063EA9835AE6A229BD2D8 /* MJRefreshNormalHeader.m */,
+				D7742339ADB64F21F1797F251AD98A99 /* MJRefreshStateHeader.h */,
+				C33D99898015320A057FFA68FF4BE5A9 /* MJRefreshStateHeader.m */,
+				5EBBD133855CD5C808456FA1C615E37C /* NSBundle+MJRefresh.h */,
+				AAE7CD923C9813A821570E8BC0327BC9 /* NSBundle+MJRefresh.m */,
+				A166CF8BF4F375E60695CF80B9800FD6 /* UIScrollView+MJExtension.h */,
+				D3AE826066B47F97BC23B78245B052BC /* UIScrollView+MJExtension.m */,
+				01F297B1BCBBF2BD77C6528D30EC105F /* UIScrollView+MJRefresh.h */,
+				1E8A4E0152C441F4BBB23877B0D55705 /* UIScrollView+MJRefresh.m */,
+				2E83AAE0F6BF57C8FE73911AF7EB5560 /* UIView+MJExtension.h */,
+				C75C0CFE8F43DFE4CD568FDC0F862BDE /* UIView+MJExtension.m */,
+				10ACF3997EAAFAEA51882A9A8A4D5FB2 /* Resources */,
+				1DF64586FA8CEE43E1BAFBF450DF4DBF /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DB2CE534FB92362D441630BB2E404C2A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F8991C1BFC72FFCE4255E7CBEF2B3E5D /* Pods */,
+				459BCA6C502B6B3811036895CD2D24CD /* Products */,
+				E75830473A5C8A15086AA172243C74D8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8736D7EBDCA6BB21C9732CC9D4B0B3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				070A6F711CFA4946A8B429F72C16A346 /* XFLoadingHUD.modulemap */,
+				532527217F7333D836EC1D6CA8C52F8E /* XFLoadingHUD.xcconfig */,
+				2AA9EFB3C85B7A18A1EC4D21B85CF062 /* XFLoadingHUD-dummy.m */,
+				370A5711ACEC28C0B1794B0D3D11693B /* XFLoadingHUD-Info.plist */,
+				74A7B79DBD522E36645EB9C64FD1C68B /* XFLoadingHUD-prefix.pch */,
+				7C84420BE34594EB807B14C363516252 /* XFLoadingHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XFLoadingHUD";
+			sourceTree = "<group>";
+		};
+		DB2CE534FB92362D441630BB2E404C2A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A1440A6EBD0899A97C8FADFBD91789 /* XFLoadingHUD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E75830473A5C8A15086AA172243C74D8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B801ED27CD1E45322AA78C95140B9 /* Pods-XFLoadingHUD_Example */,
+				63DC1623B9A2B2E61BD8C926F532AD7F /* Pods-XFLoadingHUD_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8991C1BFC72FFCE4255E7CBEF2B3E5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C86338C30E7057D957FFE369A7BC33B0 /* MJRefresh */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		08EF78522D0C15FAC07E3DF1CA39E77C /* Headers */ = {
+		88F6DCB60F2738CDD55110B1E9445D08 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				205C539389D123F0D635AEEE94E23A57 /* MJRefresh-umbrella.h in Headers */,
-				6C7D22626A2F5AD4BB1ACC02D8F10731 /* MJRefresh.h in Headers */,
-				19A2D61A783C422B8828408F98E56290 /* MJRefreshAutoFooter.h in Headers */,
-				2AE9F2C800AA6D4A6EDD9DB4B93DCDCF /* MJRefreshAutoGifFooter.h in Headers */,
-				79E7436378404C9DD06E9F65180D62A4 /* MJRefreshAutoNormalFooter.h in Headers */,
-				B967DE3AFEE4C96AAB002B8095B6C7C2 /* MJRefreshAutoStateFooter.h in Headers */,
-				72BA18069C0DFC671464EB497250D358 /* MJRefreshBackFooter.h in Headers */,
-				1364E587347DB7B32700946C39D69836 /* MJRefreshBackGifFooter.h in Headers */,
-				16145634E76498599E08EE59BF2BA9D9 /* MJRefreshBackNormalFooter.h in Headers */,
-				02B6166834FDE582A7475C4D021C532A /* MJRefreshBackStateFooter.h in Headers */,
-				DEF65EB64591CE2D6F99463627951710 /* MJRefreshComponent.h in Headers */,
-				57F9EB19DF46EC2590C8B10DB89D146E /* MJRefreshConst.h in Headers */,
-				62E84F67014328D5ED1B0F65775CDDFA /* MJRefreshFooter.h in Headers */,
-				7FC1CEA91F90834F660AA84E603B37AD /* MJRefreshGifHeader.h in Headers */,
-				370474488F17310C2E917826EE8B93FB /* MJRefreshHeader.h in Headers */,
-				366A0A2B7CC87D039FD802C7FF82BEE7 /* MJRefreshNormalHeader.h in Headers */,
-				7F9B9007891D36363BE6BE0CB08C1006 /* MJRefreshStateHeader.h in Headers */,
-				04E5A6920974A68B2D15090CBE56D58B /* NSBundle+MJRefresh.h in Headers */,
-				35CCA902DF0D8C0AB9C3A7C8AF4FD40D /* UIScrollView+MJExtension.h in Headers */,
-				7203872DAF858D609912A7D0F768FEAF /* UIScrollView+MJRefresh.h in Headers */,
-				B356C813D009D8F48B49B93F970B1F1B /* UIView+MJExtension.h in Headers */,
+				45BAC174388F00B188C6C6093728E7FD /* Pods-XFLoadingHUD_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37A7669359BCEDFAB51D821651E34801 /* Headers */ = {
+		A53A104B93E9782E20D41BC5B7680CA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206CEC9EFC45ADA91E7BD2FDDFC9FA0E /* UIView+XFCircleLoading.h in Headers */,
-				4C0F16E52E99E77A949E91011E3B2D22 /* UIView+XFLoadingAnimate.h in Headers */,
-				161F2B221B5E8838FD418D2115746A44 /* XFLoadingButton.h in Headers */,
-				6B6A02E0908467A358769A5AE3E80F75 /* XFLoadingHeader.h in Headers */,
-				B433E3DC3654B1E9759EF075DD85E124 /* XFLoadingHUD-umbrella.h in Headers */,
-				E8545F5976D3836851D1923523CD0557 /* XFLoadingHUD.h in Headers */,
-				8144D635786BC45E9C539059FD4645D3 /* XFRefreshHeader.h in Headers */,
+				A2FDD43381F9B0EADD6B9B100285B8CE /* UIView+XFCircleLoading.h in Headers */,
+				9CDA530A42B7C68FC53AAA992365D93E /* UIView+XFLoadingAnimate.h in Headers */,
+				B7047023050C77DF67D109FEE5D4DD6A /* XFLoadingButton.h in Headers */,
+				57B0BA638E3DBA27D9F795359B6C930D /* XFLoadingHeader.h in Headers */,
+				600E9B5B03D1037648BE886439A48FCC /* XFLoadingHUD-umbrella.h in Headers */,
+				920A3624A26DF21F4E5CC73E047FD76C /* XFLoadingHUD.h in Headers */,
+				C7235549DF203F9F2EEB871C5AA22C47 /* XFRefreshHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFE8D1C1BAD5296D84FA1EFD8EB6456E /* Headers */ = {
+		AB027F436F356CB9CBD5B7251ADCBF14 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891E6A8D131CBC8F1707778EE24489D2 /* Pods-XFLoadingHUD_Example-umbrella.h in Headers */,
+				DD1BDE91F143723CB7DA212EBEB24189 /* Pods-XFLoadingHUD_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3CF69FB4570A6A99337C7B4194BFBCB /* Headers */ = {
+		C9A85724D0ECA6CD24DFAF63DD917D06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADB7D36B5C95D6845892AC9253907C1 /* Pods-XFLoadingHUD_Tests-umbrella.h in Headers */,
+				B20292439308665CB10E89D72D74BBB1 /* MJRefresh-umbrella.h in Headers */,
+				9FB3E4C11A4AC3328DB00AFB3B8053B2 /* MJRefresh.h in Headers */,
+				BD8D03BB3C22551D795835DEE60978CA /* MJRefreshAutoFooter.h in Headers */,
+				09363A6021AE2BF890864611810E3AC5 /* MJRefreshAutoGifFooter.h in Headers */,
+				BE43DEACA009E9432DC795654B80F43B /* MJRefreshAutoNormalFooter.h in Headers */,
+				8CD8E650D891C019637BEC903D4DFFF9 /* MJRefreshAutoStateFooter.h in Headers */,
+				439E0707D283A1E28FF1C183BD0B227A /* MJRefreshBackFooter.h in Headers */,
+				5DFA85066C51844C81A22FC469C2EE05 /* MJRefreshBackGifFooter.h in Headers */,
+				9E545607603CDE4089F91C59A377C140 /* MJRefreshBackNormalFooter.h in Headers */,
+				43CEDEE5BFB83866D408FE06917FC3C0 /* MJRefreshBackStateFooter.h in Headers */,
+				386E43C990BABD2BE2718B21EA01A98F /* MJRefreshComponent.h in Headers */,
+				16BDE28F0178B7A54B17F6B9B01A15DA /* MJRefreshConst.h in Headers */,
+				B415F46A5638F090B1862FA2F6E158A9 /* MJRefreshFooter.h in Headers */,
+				2DE10588BB794C01C31422146C2E5442 /* MJRefreshGifHeader.h in Headers */,
+				57DC52073043C7FCB7B075B784CF6E1A /* MJRefreshHeader.h in Headers */,
+				AFECA97AA0090421DFFC21C5BF6E8F75 /* MJRefreshNormalHeader.h in Headers */,
+				4255E5E881C51CB75A47EEFE04B270CC /* MJRefreshStateHeader.h in Headers */,
+				C11CD3314246419329D65ECC498663D2 /* NSBundle+MJRefresh.h in Headers */,
+				C73699EB31859B125378778082A62E60 /* UIScrollView+MJExtension.h in Headers */,
+				3F6AAB97851AFE28F1929415DD4BB718 /* UIScrollView+MJRefresh.h in Headers */,
+				73FD93FACA51C4671B26C7A0B24ED1D5 /* UIView+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C97FDB9419B42BA6D6C47DC13DEDC52 /* XFLoadingHUD-XFLoadingHUD */ = {
+		1AD5576716304766EE63E4E1DFA4BE48 /* XFLoadingHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF865F16838C1EF93D53A5A99ABDABC /* Build configuration list for PBXNativeTarget "XFLoadingHUD-XFLoadingHUD" */;
+			buildConfigurationList = F1F505D0C0A9D2452B14AAD3D6ACC54A /* Build configuration list for PBXNativeTarget "XFLoadingHUD" */;
 			buildPhases = (
-				AA459735A41D151211B4FE8ECECB59A9 /* Sources */,
-				947623F5C7CB8377AC36CE14092DA142 /* Frameworks */,
-				3DA929D601D7AD6B3DFF4CD0CDE1BE40 /* Resources */,
+				A53A104B93E9782E20D41BC5B7680CA8 /* Headers */,
+				083944F6E49C6F245CCF64D65CFDC9AA /* Sources */,
+				293DDD84988E7C373D41FD23432577BC /* Frameworks */,
+				CAD6E253E41162E6EC0595EF676CB07B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5C728AFBC8634F7CC70E7B012EC5A87E /* PBXTargetDependency */,
 			);
-			name = "XFLoadingHUD-XFLoadingHUD";
-			productName = "XFLoadingHUD-XFLoadingHUD";
-			productReference = 8BE8B25D586142BCC0D6A486E4BE4362 /* XFLoadingHUD.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = XFLoadingHUD;
+			productName = XFLoadingHUD;
+			productReference = 0DD7528381F098920AA2785FF51CCDAB /* XFLoadingHUD.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		1626CABC4973342CA64726423711E466 /* Pods-XFLoadingHUD_Example */ = {
+		2AFC28E731005FB97533D60814EC7DA8 /* Pods-XFLoadingHUD_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78091B4F5020AD7929C414A88539EC73 /* Build configuration list for PBXNativeTarget "Pods-XFLoadingHUD_Example" */;
+			buildConfigurationList = 47166AA10BE59A0A58C0D7D539EC980D /* Build configuration list for PBXNativeTarget "Pods-XFLoadingHUD_Example" */;
 			buildPhases = (
-				BFE8D1C1BAD5296D84FA1EFD8EB6456E /* Headers */,
-				030680229E5490CAEE06EC5DAA31B9C0 /* Sources */,
-				89400B1DB52D1002F89DE5F7B4C0177F /* Frameworks */,
-				CE67C3482B3ADE7BED6D4C21A15062FE /* Resources */,
+				88F6DCB60F2738CDD55110B1E9445D08 /* Headers */,
+				F454CDA8A2661A816D29E920F54D78F2 /* Sources */,
+				DC98B5204EFBE39E3EFFE52FAF998F91 /* Frameworks */,
+				DE70C16F9C7EA25AD08A49BE11FC404F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B44FC8340E21D2B1A9DA73A270254DD0 /* PBXTargetDependency */,
-				22926918B891F3F2663B9FF75E244B21 /* PBXTargetDependency */,
+				D96EFE3A6FDED9CF7E1101F267F8FDB5 /* PBXTargetDependency */,
+				9AF37728DC5A3CF969E384371F156BF2 /* PBXTargetDependency */,
 			);
 			name = "Pods-XFLoadingHUD_Example";
 			productName = "Pods-XFLoadingHUD_Example";
-			productReference = 7D15B42AC1F3A09112AC172D95B021D8 /* Pods_XFLoadingHUD_Example.framework */;
+			productReference = F8C0D26FF2C5CB1E2362A63F9CDDB3B1 /* Pods_XFLoadingHUD_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		546B747B9DB0515E059EEBA0B9E98B42 /* MJRefresh */ = {
+		4376132F13040B83E1ACB2555C0828DE /* Pods-XFLoadingHUD_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6F83A3523D8341EDA917BED02337C9A /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildConfigurationList = 7990FF48B7F1B3B570F337116F3194E3 /* Build configuration list for PBXNativeTarget "Pods-XFLoadingHUD_Tests" */;
 			buildPhases = (
-				08EF78522D0C15FAC07E3DF1CA39E77C /* Headers */,
-				43D5CCDE6E144B6F6AEE48CEDD25AC1C /* Sources */,
-				4330790BF93619542494717EF5872A17 /* Frameworks */,
-				862C3C5F3DC00E80837F3E923C463301 /* Resources */,
+				AB027F436F356CB9CBD5B7251ADCBF14 /* Headers */,
+				7849D1C429D6CDCE36C5A01133D65E4A /* Sources */,
+				413E9869A7EA19779F95E3998FF73853 /* Frameworks */,
+				4FC91CA088AEC1E6B409574655DCF749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7434E82C58F540727EC017B853D08AC /* PBXTargetDependency */,
+			);
+			name = "Pods-XFLoadingHUD_Tests";
+			productName = "Pods-XFLoadingHUD_Tests";
+			productReference = D7B5F4EE44E57A66DF48D34733811CD5 /* Pods_XFLoadingHUD_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C76AC070DB65255C67667F7876EE238 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15979FE5D7353EBA9898381E61E4AD6 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				C9A85724D0ECA6CD24DFAF63DD917D06 /* Headers */,
+				A4F3E2D14CC8FEDCB0F16135664D35A7 /* Sources */,
+				AFE59E28961E719D41451F086E3C98F1 /* Frameworks */,
+				98DA792F2922F46B99D123915FBC6997 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -600,111 +594,63 @@
 			);
 			name = MJRefresh;
 			productName = MJRefresh;
-			productReference = 52D586709AFB52415CCDC70DF4506910 /* MJRefresh.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8590CB1E74E51CF1F91504A8E0279462 /* XFLoadingHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1970F6FB83ACCD3DA5257F3ECB04731D /* Build configuration list for PBXNativeTarget "XFLoadingHUD" */;
-			buildPhases = (
-				37A7669359BCEDFAB51D821651E34801 /* Headers */,
-				1995F910433AFF2AEB1D71DFAC005E61 /* Sources */,
-				061C4AB9677C5D0585DDF72C9FD0B8CC /* Frameworks */,
-				8763E83A2D448B902783F7307A0854D5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				13C7C4CB36A776C3AFC181C9DD7EB996 /* PBXTargetDependency */,
-				80013CD27B87C6AF6A7AE4A63F79DE2D /* PBXTargetDependency */,
-			);
-			name = XFLoadingHUD;
-			productName = XFLoadingHUD;
-			productReference = 56E2B873C0E5CF8CE202CFB7CB9E61EF /* XFLoadingHUD.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EECEDEF818A842CD8EB3061348398040 /* Pods-XFLoadingHUD_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 13A994D94F76103220B0C80654A3AC95 /* Build configuration list for PBXNativeTarget "Pods-XFLoadingHUD_Tests" */;
-			buildPhases = (
-				F3CF69FB4570A6A99337C7B4194BFBCB /* Headers */,
-				6AA123CDAD62F130A1BE6A71332D3E70 /* Sources */,
-				C2D95323DF4B5C83C703A2E58106F00C /* Frameworks */,
-				5825CE77EF98C3789F6BF4FADA55A99B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C91B10DAE1D245BE0448076BEC1FA923 /* PBXTargetDependency */,
-			);
-			name = "Pods-XFLoadingHUD_Tests";
-			productName = "Pods-XFLoadingHUD_Tests";
-			productReference = 1DEA6A5AA24765C34062AC102B06D49C /* Pods_XFLoadingHUD_Tests.framework */;
+			productReference = D172866FA68C45373A3D67367C4E936D /* MJRefresh.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 50371640C086C4E759A2C17ECD1B5918 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 459BCA6C502B6B3811036895CD2D24CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				546B747B9DB0515E059EEBA0B9E98B42 /* MJRefresh */,
-				1626CABC4973342CA64726423711E466 /* Pods-XFLoadingHUD_Example */,
-				EECEDEF818A842CD8EB3061348398040 /* Pods-XFLoadingHUD_Tests */,
-				8590CB1E74E51CF1F91504A8E0279462 /* XFLoadingHUD */,
-				0C97FDB9419B42BA6D6C47DC13DEDC52 /* XFLoadingHUD-XFLoadingHUD */,
+				6C76AC070DB65255C67667F7876EE238 /* MJRefresh */,
+				2AFC28E731005FB97533D60814EC7DA8 /* Pods-XFLoadingHUD_Example */,
+				4376132F13040B83E1ACB2555C0828DE /* Pods-XFLoadingHUD_Tests */,
+				1AD5576716304766EE63E4E1DFA4BE48 /* XFLoadingHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3DA929D601D7AD6B3DFF4CD0CDE1BE40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19C4792DB0F612049AA44DD72EC6AA90 /* Pusab.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5825CE77EF98C3789F6BF4FADA55A99B /* Resources */ = {
+		4FC91CA088AEC1E6B409574655DCF749 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		862C3C5F3DC00E80837F3E923C463301 /* Resources */ = {
+		98DA792F2922F46B99D123915FBC6997 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10884584B45C6564993981E004AE6B5B /* MJRefresh.bundle in Resources */,
+				6AE12F2BE6E02B5FD8CE827A10E8AB55 /* MJRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8763E83A2D448B902783F7307A0854D5 /* Resources */ = {
+		CAD6E253E41162E6EC0595EF676CB07B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59396BA7F623808978BAEAE5437DE164 /* XFLoadingHUD.bundle in Resources */,
+				B916F930055D78FCF69BD57C28485E0A /* Pusab.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE67C3482B3ADE7BED6D4C21A15062FE /* Resources */ = {
+		DE70C16F9C7EA25AD08A49BE11FC404F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -714,141 +660,95 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		030680229E5490CAEE06EC5DAA31B9C0 /* Sources */ = {
+		083944F6E49C6F245CCF64D65CFDC9AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABC1E7BF086A573CC35A8300563C4E8 /* Pods-XFLoadingHUD_Example-dummy.m in Sources */,
+				C2004148D1CFB411609112920E11EAEF /* UIView+XFCircleLoading.m in Sources */,
+				1E711176DA9B245DC7D8DA51837BD808 /* UIView+XFLoadingAnimate.m in Sources */,
+				38F79E043618A30207D6430AE0D82942 /* XFLoadingButton.m in Sources */,
+				D6165F6C5CCDE592D3777F4D9F4164FA /* XFLoadingHUD-dummy.m in Sources */,
+				CDE37BE2455CAF2D20DADFC6B5116A46 /* XFLoadingHUD.m in Sources */,
+				4663C73875DFC53DD3397B5DA5A6A85F /* XFRefreshHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1995F910433AFF2AEB1D71DFAC005E61 /* Sources */ = {
+		7849D1C429D6CDCE36C5A01133D65E4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D2425331E2A4BB00191CBD7F13419E7 /* UIView+XFCircleLoading.m in Sources */,
-				B385C33E20D74EF52902D0D1488138F7 /* UIView+XFLoadingAnimate.m in Sources */,
-				F500515661320123FD1E4E19BB9B4395 /* XFLoadingButton.m in Sources */,
-				D0DC1D76CC463010A117560A62520F71 /* XFLoadingHUD-dummy.m in Sources */,
-				BA335DAA1D692DD13A938415F5A3937C /* XFLoadingHUD.m in Sources */,
-				3870F3B321945A97BEE68F03DC9BE52A /* XFRefreshHeader.m in Sources */,
+				F00EA71F61F8685D7E9117CDEC778D70 /* Pods-XFLoadingHUD_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43D5CCDE6E144B6F6AEE48CEDD25AC1C /* Sources */ = {
+		A4F3E2D14CC8FEDCB0F16135664D35A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				482B75E0CB8031D3F673F70242FA41FB /* MJRefresh-dummy.m in Sources */,
-				DB70C0344D46C9DBD3DBD9CA84C639D3 /* MJRefreshAutoFooter.m in Sources */,
-				B50A173CC006987E8682D89650F14F63 /* MJRefreshAutoGifFooter.m in Sources */,
-				6E560D2FE4A36AB742453E3CF5F4CE68 /* MJRefreshAutoNormalFooter.m in Sources */,
-				6D2FD545E0B463F0210B5242E1477721 /* MJRefreshAutoStateFooter.m in Sources */,
-				EEDC5683FF36946364A3C8344630705B /* MJRefreshBackFooter.m in Sources */,
-				F41FA61294C6ABEEAEDC06A420AD696E /* MJRefreshBackGifFooter.m in Sources */,
-				2EFA8D0D3C31B3A77612C955773F7D36 /* MJRefreshBackNormalFooter.m in Sources */,
-				C1117CCC45FA6780A4E9CC0879D5C3EA /* MJRefreshBackStateFooter.m in Sources */,
-				A7ED1FA2F59F020062DE3B579AF84F55 /* MJRefreshComponent.m in Sources */,
-				F024CC151BA9C2DCEEEDB1857C832CB8 /* MJRefreshConst.m in Sources */,
-				4E75F1293990391FB686C2BBD734E715 /* MJRefreshFooter.m in Sources */,
-				94237113054B0D5CE28D86E2C827BD72 /* MJRefreshGifHeader.m in Sources */,
-				B7170162BEBD63676519BFABE4D76287 /* MJRefreshHeader.m in Sources */,
-				EF873453BEEE867C2F8C43660CEB4A78 /* MJRefreshNormalHeader.m in Sources */,
-				31D52A4583BB36984AEC4C6D71265746 /* MJRefreshStateHeader.m in Sources */,
-				9A9931F189A4EF1FABC8C731BC11AEFE /* NSBundle+MJRefresh.m in Sources */,
-				81727E0FB34C0FE08D39BDE52687701F /* UIScrollView+MJExtension.m in Sources */,
-				CF76306C6168AD7A6C076288CA899B02 /* UIScrollView+MJRefresh.m in Sources */,
-				8234F492BBE286EA25736C05B5728C82 /* UIView+MJExtension.m in Sources */,
+				9AB6A36247069FED8CE1E8A70B8078B2 /* MJRefresh-dummy.m in Sources */,
+				27B482E9C5F3EB34714B6B8D6191E7E0 /* MJRefreshAutoFooter.m in Sources */,
+				3722DFABC75D79F738516C37B7519FD1 /* MJRefreshAutoGifFooter.m in Sources */,
+				D3D7E5D28E3A69CDE00EBF8CB78B7642 /* MJRefreshAutoNormalFooter.m in Sources */,
+				4EC72D6C7F6175F658103AB0F6CF7487 /* MJRefreshAutoStateFooter.m in Sources */,
+				E75BE8041D9C6207509DF929DDDA0609 /* MJRefreshBackFooter.m in Sources */,
+				5EECF8D80AF9AF67BA0D135FC9AD0E38 /* MJRefreshBackGifFooter.m in Sources */,
+				AB66F49F133FAE9BD9EAA9A29FAD75EE /* MJRefreshBackNormalFooter.m in Sources */,
+				ECB20F8E693B05B08F6F381A77EA8E9A /* MJRefreshBackStateFooter.m in Sources */,
+				5E99D197383D0876632260B01E279774 /* MJRefreshComponent.m in Sources */,
+				FFE11CC03CCDF7E1887E287E90C98C88 /* MJRefreshConst.m in Sources */,
+				9230DB3D735A7F6E202EEB12671512F9 /* MJRefreshFooter.m in Sources */,
+				C0CFB5EBBA6EA229E940436055CFF398 /* MJRefreshGifHeader.m in Sources */,
+				EA8F03E9D188A9086696DB8B093FAA1C /* MJRefreshHeader.m in Sources */,
+				576EBB347E9329A93FE0EB921A4EA3A1 /* MJRefreshNormalHeader.m in Sources */,
+				4CDD32847C4DFF32E120F87BCE488512 /* MJRefreshStateHeader.m in Sources */,
+				500E95B6B156AC527A884E4861AC138E /* NSBundle+MJRefresh.m in Sources */,
+				DEE3E21758E986E744A24F30DA41B878 /* UIScrollView+MJExtension.m in Sources */,
+				8D63FD9257BAA17CD3E29EADF4A9F4E3 /* UIScrollView+MJRefresh.m in Sources */,
+				FADC4D249D490A2C52E0D0F95F8A098F /* UIView+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AA123CDAD62F130A1BE6A71332D3E70 /* Sources */ = {
+		F454CDA8A2661A816D29E920F54D78F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EC93972F3B130707AF118DC03E6A74E /* Pods-XFLoadingHUD_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA459735A41D151211B4FE8ECECB59A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6EC5B668E7CB80854955DBA2D32D5F6F /* Pods-XFLoadingHUD_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13C7C4CB36A776C3AFC181C9DD7EB996 /* PBXTargetDependency */ = {
+		5C728AFBC8634F7CC70E7B012EC5A87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
-			target = 546B747B9DB0515E059EEBA0B9E98B42 /* MJRefresh */;
-			targetProxy = D9E3D7698855B2FA4209DC4D98814E1D /* PBXContainerItemProxy */;
+			target = 6C76AC070DB65255C67667F7876EE238 /* MJRefresh */;
+			targetProxy = 1E0619A16A18E5F944FE3EDF5536C8FC /* PBXContainerItemProxy */;
 		};
-		22926918B891F3F2663B9FF75E244B21 /* PBXTargetDependency */ = {
+		9AF37728DC5A3CF969E384371F156BF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XFLoadingHUD;
-			target = 8590CB1E74E51CF1F91504A8E0279462 /* XFLoadingHUD */;
-			targetProxy = E55EC605F5FF01E89E45B2EBE6B6AAFB /* PBXContainerItemProxy */;
+			target = 1AD5576716304766EE63E4E1DFA4BE48 /* XFLoadingHUD */;
+			targetProxy = 981703698C5BC28799FA4C510319482A /* PBXContainerItemProxy */;
 		};
-		80013CD27B87C6AF6A7AE4A63F79DE2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "XFLoadingHUD-XFLoadingHUD";
-			target = 0C97FDB9419B42BA6D6C47DC13DEDC52 /* XFLoadingHUD-XFLoadingHUD */;
-			targetProxy = 3E732EC7C22975FCE2492A065684AFA4 /* PBXContainerItemProxy */;
-		};
-		B44FC8340E21D2B1A9DA73A270254DD0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			target = 546B747B9DB0515E059EEBA0B9E98B42 /* MJRefresh */;
-			targetProxy = 951A915E3412F35168364AA9D8FF5620 /* PBXContainerItemProxy */;
-		};
-		C91B10DAE1D245BE0448076BEC1FA923 /* PBXTargetDependency */ = {
+		B7434E82C58F540727EC017B853D08AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XFLoadingHUD_Example";
-			target = 1626CABC4973342CA64726423711E466 /* Pods-XFLoadingHUD_Example */;
-			targetProxy = 2545C2DD9C2A07595067AE438E43DE71 /* PBXContainerItemProxy */;
+			target = 2AFC28E731005FB97533D60814EC7DA8 /* Pods-XFLoadingHUD_Example */;
+			targetProxy = CEDF2C0367030445F2BBFB7C72BE222B /* PBXContainerItemProxy */;
+		};
+		D96EFE3A6FDED9CF7E1101F267F8FDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6C76AC070DB65255C67667F7876EE238 /* MJRefresh */;
+			targetProxy = A8E84BC355A9C17C737E836B045A7047 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F94EDA927F3A286A4A435EEE709B8B9 /* Debug */ = {
+		045E4037CBFD24C2AEA473CCCF99F557 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7993EA84BABCC93F6187D17911E3A9B0 /* Pods-XFLoadingHUD_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XFLoadingHUD_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XFLoadingHUD_Tests/Pods-XFLoadingHUD_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1BF939CC19DE98829BF1C02B78224BCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */;
+			baseConfigurationReference = 247DE9AC072EFEB7ED4A006BE791EC5C /* MJRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -860,70 +760,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = MJRefresh;
-				PRODUCT_NAME = MJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1DAF1CCA6BF9DCB84A78709CCF8DEA3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D30CE7C143014A8C83820A009A72FCC /* Pods-XFLoadingHUD_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XFLoadingHUD_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2E7A2D92BE086A6C62BFAE145AF717C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -940,102 +777,7 @@
 			};
 			name = Release;
 		};
-		3DE6D99AC7A3BE9A3A66CA61D77154CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A07C99BDF9377222C877878B01A0193 /* XFLoadingHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XFLoadingHUD/XFLoadingHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XFLoadingHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XFLoadingHUD/XFLoadingHUD.modulemap";
-				PRODUCT_MODULE_NAME = XFLoadingHUD;
-				PRODUCT_NAME = XFLoadingHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6BA5A1AF256EE33C5BE4C7383914D6C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A07C99BDF9377222C877878B01A0193 /* XFLoadingHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XFLoadingHUD/XFLoadingHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XFLoadingHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XFLoadingHUD/XFLoadingHUD.modulemap";
-				PRODUCT_MODULE_NAME = XFLoadingHUD;
-				PRODUCT_NAME = XFLoadingHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7A8862A08412766B5AF9F5DEF9A50960 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0401FABA9B4595B0308600DB6BD20A3 /* Pods-XFLoadingHUD_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XFLoadingHUD_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XFLoadingHUD_Tests/Pods-XFLoadingHUD_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1067,8 +809,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1097,57 +837,7 @@
 			};
 			name = Release;
 		};
-		88A85F3C29A5674F047D93EEFA57DDBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81EACF3B08AF26FA0FDD217EEED08455 /* Pods-XFLoadingHUD_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XFLoadingHUD_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9F34BC97ED85CF7CA7F4E840249844B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A07C99BDF9377222C877878B01A0193 /* XFLoadingHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XFLoadingHUD";
-				INFOPLIST_FILE = "Target Support Files/XFLoadingHUD/ResourceBundle-XFLoadingHUD-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XFLoadingHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1179,8 +869,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1213,80 +901,282 @@
 			};
 			name = Debug;
 		};
-		BA72B9204327A7C8528BB86D32DAE3BB /* Debug */ = {
+		638B87ACF9A2C5A13ABA9228B3112AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A07C99BDF9377222C877878B01A0193 /* XFLoadingHUD.xcconfig */;
+			baseConfigurationReference = 33490135380AF8592F0CF6E8053991DB /* Pods-XFLoadingHUD_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XFLoadingHUD";
-				INFOPLIST_FILE = "Target Support Files/XFLoadingHUD/ResourceBundle-XFLoadingHUD-Info.plist";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XFLoadingHUD;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B39F76A1E2213C16DCA5EBC1BF6747D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532527217F7333D836EC1D6CA8C52F8E /* XFLoadingHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XFLoadingHUD/XFLoadingHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XFLoadingHUD/XFLoadingHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XFLoadingHUD/XFLoadingHUD.modulemap";
+				PRODUCT_MODULE_NAME = XFLoadingHUD;
+				PRODUCT_NAME = XFLoadingHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B90B552777B3711C5548D8CD75859720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0307A90EA869E46AB69C90AD2C8F333 /* Pods-XFLoadingHUD_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XFLoadingHUD_Example/Pods-XFLoadingHUD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBF944E96109B170A9EA43F5D987D423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653D5345BC74205543A59962C4844AD6 /* Pods-XFLoadingHUD_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XFLoadingHUD_Tests/Pods-XFLoadingHUD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XFLoadingHUD_Tests/Pods-XFLoadingHUD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0D534A389828560D7D2189F7BF09F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532527217F7333D836EC1D6CA8C52F8E /* XFLoadingHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XFLoadingHUD/XFLoadingHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XFLoadingHUD/XFLoadingHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XFLoadingHUD/XFLoadingHUD.modulemap";
+				PRODUCT_MODULE_NAME = XFLoadingHUD;
+				PRODUCT_NAME = XFLoadingHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E238A73CDF9C79B310EC2E6913C097FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E85C24A7AB8D92E0A4434D1298F148E /* Pods-XFLoadingHUD_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XFLoadingHUD_Tests/Pods-XFLoadingHUD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XFLoadingHUD_Tests/Pods-XFLoadingHUD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9D635B68D81DCDD18E56587E8228FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247DE9AC072EFEB7ED4A006BE791EC5C /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13A994D94F76103220B0C80654A3AC95 /* Build configuration list for PBXNativeTarget "Pods-XFLoadingHUD_Tests" */ = {
+		47166AA10BE59A0A58C0D7D539EC980D /* Build configuration list for PBXNativeTarget "Pods-XFLoadingHUD_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F94EDA927F3A286A4A435EEE709B8B9 /* Debug */,
-				7A8862A08412766B5AF9F5DEF9A50960 /* Release */,
+				638B87ACF9A2C5A13ABA9228B3112AC8 /* Debug */,
+				B90B552777B3711C5548D8CD75859720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1970F6FB83ACCD3DA5257F3ECB04731D /* Build configuration list for PBXNativeTarget "XFLoadingHUD" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BA5A1AF256EE33C5BE4C7383914D6C3 /* Debug */,
-				3DE6D99AC7A3BE9A3A66CA61D77154CF /* Release */,
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		7990FF48B7F1B3B570F337116F3194E3 /* Build configuration list for PBXNativeTarget "Pods-XFLoadingHUD_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+				E238A73CDF9C79B310EC2E6913C097FE /* Debug */,
+				BBF944E96109B170A9EA43F5D987D423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DF865F16838C1EF93D53A5A99ABDABC /* Build configuration list for PBXNativeTarget "XFLoadingHUD-XFLoadingHUD" */ = {
+		B15979FE5D7353EBA9898381E61E4AD6 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA72B9204327A7C8528BB86D32DAE3BB /* Debug */,
-				9F34BC97ED85CF7CA7F4E840249844B9 /* Release */,
+				E9D635B68D81DCDD18E56587E8228FC2 /* Debug */,
+				045E4037CBFD24C2AEA473CCCF99F557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78091B4F5020AD7929C414A88539EC73 /* Build configuration list for PBXNativeTarget "Pods-XFLoadingHUD_Example" */ = {
+		F1F505D0C0A9D2452B14AAD3D6ACC54A /* Build configuration list for PBXNativeTarget "XFLoadingHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DAF1CCA6BF9DCB84A78709CCF8DEA3A /* Debug */,
-				88A85F3C29A5674F047D93EEFA57DDBF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6F83A3523D8341EDA917BED02337C9A /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BF939CC19DE98829BF1C02B78224BCB /* Debug */,
-				2E7A2D92BE086A6C62BFAE145AF717C4 /* Release */,
+				D0D534A389828560D7D2189F7BF09F00 /* Debug */,
+				6B39F76A1E2213C16DCA5EBC1BF6747D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

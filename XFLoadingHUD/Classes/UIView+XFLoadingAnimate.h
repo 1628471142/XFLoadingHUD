@@ -48,6 +48,14 @@
  */
 - (void)drawWordAnimationWithSize:(CGSize)size text:(NSString *)text fontSize:(CGFloat)fontSize position:(XFLoadingPosition)position;
 
+/**
+ 在view上绘制文字动画，使用默认字体，设置字体大小
+ @param size 文字所占区域大小
+ @param text 文字
+ @param fontSize 字体大小
+ @param position 相对位置
+ */
+- (void)drawWordAnimationWithSize:(CGSize)size text:(NSString *)text fontSize:(CGFloat)fontSize position:(XFLoadingPosition)position startColor:(UIColor *)startColor endColor:(UIColor *)endColor;
 
 /**
  在view上绘制文字动画，起始和结束颜色为默认

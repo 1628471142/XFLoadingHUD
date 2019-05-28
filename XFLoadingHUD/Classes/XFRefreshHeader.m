@@ -80,7 +80,6 @@
     }
     else{
         [self.layer removeAllAnimations];
-        NSLog(@"circle.sublayers.count = %ld",self.layer.sublayers.count);
         [self.layer.sublayers makeObjectsPerformSelector:@selector(removeFromSuperlayer)];
     }
 }
